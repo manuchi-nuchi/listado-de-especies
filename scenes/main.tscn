@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://dujcdeg7aar2o"]
+
+[ext_resource type="Texture2D" uid="uid://bsupj72ghdht2" path="res://icon.svg" id="1_o5qli"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0wfyh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sugp2"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jyhfs"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tbgi4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o5qli"]
+
+[sub_resource type="Theme" id="Theme_o5qli"]
+VScrollBar/styles/grabber = SubResource("StyleBoxEmpty_0wfyh")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_sugp2")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_jyhfs")
+VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_tbgi4")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_o5qli")
+
+[node name="Node2D" type="Node2D" unique_id=936190083]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=404602259]
+
+[node name="Control" type="Control" parent="." unique_id=2041479069]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Control" unique_id=575845]
+layout_mode = 0
+offset_left = -498.0
+offset_top = -244.0
+offset_right = -326.0
+offset_bottom = 250.0
+theme = SubResource("Theme_o5qli")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/ScrollContainer" unique_id=1299802435]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="TextureRect" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1402360074]
+layout_mode = 2
+texture = ExtResource("1_o5qli")
+
+[node name="TextureRect2" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=823076506]
+layout_mode = 2
+texture = ExtResource("1_o5qli")
+
+[node name="TextureRect3" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=54923007]
+layout_mode = 2
+texture = ExtResource("1_o5qli")
+
+[node name="TextureRect4" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1136807723]
+layout_mode = 2
+texture = ExtResource("1_o5qli")
+
+[node name="TextureRect5" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1445217440]
+layout_mode = 2
+texture = ExtResource("1_o5qli")
+
+[node name="TextureRect6" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1647484933]
+layout_mode = 2
+texture = ExtResource("1_o5qli")
