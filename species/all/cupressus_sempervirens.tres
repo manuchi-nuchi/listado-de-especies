@@ -1,11 +1,13 @@
 [gd_resource type="Resource" script_class="Species" format=3 uid="uid://b38jyfrolpm72"]
 
 [ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="1_1gmbv"]
+[ext_resource type="Texture2D" uid="uid://ci8ix6mclp2il" path="res://res/img/cupressus sempervirens 1.png" id="1_2o1ud"]
 
 [resource]
 script = ExtResource("1_1gmbv")
 commonName = "ciprés"
 scientificName = "Cupressus sempervirens"
+image = ExtResource("1_2o1ud")
 color1 = Color(0.56, 0.8, 0.7, 1)
 color2 = Color(0.2925, 0.65, 0.4295416, 1)
 color3 = Color(0.19136593, 0.2628375, 0.038599513, 1)

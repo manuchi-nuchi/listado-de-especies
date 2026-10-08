@@ -7,6 +7,7 @@ public partial class MainManager : Node
 	[Export] SpeciesList list;
 	[Export] Array<SpeciesLabel> labels;
 	[Export] RichTextLabel scientificNameLabel;
+	[Export] TextureRect image;
 	int current = 0;
 	int offset = -2;
 
@@ -24,6 +25,7 @@ public partial class MainManager : Node
         }
 
 		scientificNameLabel.Text = list[current].scientificName;
+		image.Texture = list[current].image;
     }
 
 	public override void _UnhandledInput(InputEvent @event)
@@ -46,8 +48,6 @@ public partial class MainManager : Node
 
 	int BoundedIndex(int i)
 	{
-		int a = (current + offset + i + list.Count) % list.Count;
-		GD.Print(current + " " + i + " : " + a);
 		return (current + offset + i + list.Count) % list.Count;
 	}
 }
