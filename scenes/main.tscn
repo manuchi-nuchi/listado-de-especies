@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://dujcdeg7aar2o"]
 
-[ext_resource type="Texture2D" uid="uid://bsupj72ghdht2" path="res://icon.svg" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://qebudc088aj6" path="res://scenes/plant label.tscn" id="1_o5qli"]
+[ext_resource type="Texture2D" uid="uid://bsupj72ghdht2" path="res://icon.svg" id="2_jyhfs"]
+[ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="2_sugp2"]
+[ext_resource type="FontFile" uid="uid://l30lbkpk6mio" path="res://res/fonts/EBGaramond-Italic-VariableFont_wght.ttf" id="3_jyhfs"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0wfyh"]
 
@@ -10,58 +13,234 @@
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tbgi4"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o5qli"]
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tefeu"]
 
-[sub_resource type="Theme" id="Theme_o5qli"]
-VScrollBar/styles/grabber = SubResource("StyleBoxEmpty_0wfyh")
-VScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_sugp2")
-VScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_jyhfs")
-VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_tbgi4")
-VScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_o5qli")
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t5ms5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sbwjj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_15t63"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_10gry"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b1niq"]
+
+[sub_resource type="Theme" id="Theme_tbgi4"]
+HScrollBar/styles/grabber = SubResource("StyleBoxEmpty_0wfyh")
+HScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_sugp2")
+HScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_jyhfs")
+HScrollBar/styles/scroll = SubResource("StyleBoxEmpty_tbgi4")
+HScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_tefeu")
+VScrollBar/styles/grabber = SubResource("StyleBoxEmpty_t5ms5")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_sbwjj")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_15t63")
+VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_10gry")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_b1niq")
 
 [node name="Node2D" type="Node2D" unique_id=936190083]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=404602259]
 
-[node name="Control" type="Control" parent="." unique_id=2041479069]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2128722662]
+
+[node name="bg color" type="ColorRect" parent="CanvasLayer" unique_id=2050172414]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.7529412, 0.8, 0.56078434, 1)
+
+[node name="list" type="Control" parent="CanvasLayer" unique_id=731719640]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 216.0
+offset_top = -299.0
+offset_right = 697.0
+offset_bottom = 301.0
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0, 0.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
 
-[node name="ScrollContainer" type="ScrollContainer" parent="Control" unique_id=575845]
-layout_mode = 0
-offset_left = -498.0
-offset_top = -244.0
-offset_right = -326.0
-offset_bottom = 250.0
-theme = SubResource("Theme_o5qli")
+[node name="species -2" parent="CanvasLayer/list" unique_id=699097035 instance=ExtResource("1_o5qli")]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_right = 0.0
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = -300.0
+offset_right = -75.0
+offset_bottom = -300.0
+grow_horizontal = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Control/ScrollContainer" unique_id=1299802435]
-layout_mode = 2
-size_flags_horizontal = 3
-size_flags_vertical = 3
+[node name="label bg color" parent="CanvasLayer/list/species -2" index="0" unique_id=312146238]
+visible = false
 
-[node name="TextureRect" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1402360074]
-layout_mode = 2
-texture = ExtResource("1_o5qli")
+[node name="RichTextLabel" parent="CanvasLayer/list/species -2" index="1" unique_id=1371540708]
+theme_override_colors/default_color = Color(1, 1, 1, 0.44705883)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.19215687)
 
-[node name="TextureRect2" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=823076506]
-layout_mode = 2
-texture = ExtResource("1_o5qli")
+[node name="species -1" parent="CanvasLayer/list" unique_id=1733652003 instance=ExtResource("1_o5qli")]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_right = 0.0
+anchor_bottom = 0.5
+offset_left = -30.0
+offset_top = -150.0
+offset_right = -30.0
+offset_bottom = -150.0
+grow_horizontal = 1
 
-[node name="TextureRect3" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=54923007]
-layout_mode = 2
-texture = ExtResource("1_o5qli")
+[node name="label bg color" parent="CanvasLayer/list/species -1" index="0" unique_id=312146238]
+visible = false
 
-[node name="TextureRect4" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1136807723]
-layout_mode = 2
-texture = ExtResource("1_o5qli")
+[node name="RichTextLabel" parent="CanvasLayer/list/species -1" index="1" unique_id=1371540708]
+theme_override_colors/default_color = Color(1, 1, 1, 0.81960785)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.49019608)
 
-[node name="TextureRect5" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1445217440]
-layout_mode = 2
-texture = ExtResource("1_o5qli")
+[node name="species 0" parent="CanvasLayer/list" unique_id=1004362714 instance=ExtResource("1_o5qli")]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_right = 0.0
+anchor_bottom = 0.5
+grow_horizontal = 1
 
-[node name="TextureRect6" type="TextureRect" parent="Control/ScrollContainer/VBoxContainer" unique_id=1647484933]
-layout_mode = 2
-texture = ExtResource("1_o5qli")
+[node name="species 1" parent="CanvasLayer/list" unique_id=473829109 instance=ExtResource("1_o5qli")]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_right = 0.0
+anchor_bottom = 0.5
+offset_left = -30.0
+offset_top = 150.0
+offset_right = -30.0
+offset_bottom = 150.0
+grow_horizontal = 1
+
+[node name="label bg color" parent="CanvasLayer/list/species 1" index="0" unique_id=312146238]
+visible = false
+
+[node name="RichTextLabel" parent="CanvasLayer/list/species 1" index="1" unique_id=1371540708]
+theme_override_colors/default_color = Color(1, 1, 1, 0.81960785)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.49019608)
+
+[node name="species 2" parent="CanvasLayer/list" unique_id=1705575866 instance=ExtResource("1_o5qli")]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_right = 0.0
+anchor_bottom = 0.5
+offset_left = -75.0
+offset_top = 300.0
+offset_right = -75.0
+offset_bottom = 300.0
+grow_horizontal = 1
+
+[node name="label bg color" parent="CanvasLayer/list/species 2" index="0" unique_id=312146238]
+visible = false
+
+[node name="RichTextLabel" parent="CanvasLayer/list/species 2" index="1" unique_id=1371540708]
+theme_override_colors/default_color = Color(1, 1, 1, 0.44705883)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.19215687)
+
+[node name="details" type="Control" parent="CanvasLayer" unique_id=2092319144]
+layout_mode = 3
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="area" type="Control" parent="CanvasLayer/details" unique_id=962479993]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -1200.0
+offset_top = -443.5
+offset_bottom = 443.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="img bg color" type="ColorRect" parent="CanvasLayer/details/area" unique_id=2130566698]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0, 0.5)
+color = Color(0.6509804, 0.5058824, 0.29411766, 1)
+
+[node name="img frame color" type="ColorRect" parent="CanvasLayer/details/area/img bg color" unique_id=1255451942]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -325.0
+offset_top = -325.0
+offset_right = 325.0
+offset_bottom = 325.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset_ratio = Vector2(0, 0.5)
+color = Color(0.4, 0.078431375, 0.078431375, 1)
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/details/area/img bg color/img frame color" unique_id=1776062493]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -310.0
+offset_top = -310.0
+offset_right = 310.0
+offset_bottom = 310.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_jyhfs")
+
+[node name="scientific name" type="RichTextLabel" parent="CanvasLayer/details/area" unique_id=1002713461]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -529.5
+offset_top = 30.0
+offset_right = 529.5
+offset_bottom = 90.00002
+grow_horizontal = 2
+pivot_offset = Vector2(0, 35)
+theme = SubResource("Theme_tbgi4")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.654902)
+theme_override_constants/shadow_outline_size = 1
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_fonts/normal_font = ExtResource("2_sugp2")
+theme_override_fonts/italics_font = ExtResource("3_jyhfs")
+theme_override_font_sizes/normal_font_size = 45
+theme_override_font_sizes/italics_font_size = 45
+bbcode_enabled = true
+text = "Platycladus [i]platycladuskii[/i] p"
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[editable path="CanvasLayer/list/species -2"]
+[editable path="CanvasLayer/list/species -1"]
+[editable path="CanvasLayer/list/species 1"]
+[editable path="CanvasLayer/list/species 2"]

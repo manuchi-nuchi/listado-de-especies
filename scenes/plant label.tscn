@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://qebudc088aj6"]
+
+[ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="1_t5ms5"]
+[ext_resource type="FontFile" uid="uid://l30lbkpk6mio" path="res://res/fonts/EBGaramond-Italic-VariableFont_wght.ttf" id="2_h7eg7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_15t63"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sbwjj"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_t5ms5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h7eg7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5nbhv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jqr0q"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qq64y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ggu61"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jam7p"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_x1p0u"]
+
+[sub_resource type="Theme" id="Theme_o5qli"]
+HScrollBar/styles/grabber = SubResource("StyleBoxEmpty_15t63")
+HScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_sbwjj")
+HScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_t5ms5")
+HScrollBar/styles/scroll = SubResource("StyleBoxEmpty_h7eg7")
+HScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_5nbhv")
+VScrollBar/styles/grabber = SubResource("StyleBoxEmpty_jqr0q")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxEmpty_qq64y")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_ggu61")
+VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_jam7p")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_x1p0u")
+
+[node name="PlantLabel" type="Control" unique_id=699097035]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="label bg color" type="ColorRect" parent="." unique_id=312146238]
+layout_mode = 1
+offset_left = -57.0
+offset_top = -44.0
+offset_right = 724.0
+offset_bottom = 46.265015
+pivot_offset_ratio = Vector2(0, 0.5)
+color = Color(0.6509804, 0.5058824, 0.29411766, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1371540708]
+layout_mode = 0
+offset_left = -0.5
+offset_top = -35.0
+offset_right = 599.5
+offset_bottom = 25.0
+pivot_offset = Vector2(0, 35)
+theme = SubResource("Theme_o5qli")
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.654902)
+theme_override_constants/shadow_outline_size = 1
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_fonts/normal_font = ExtResource("1_t5ms5")
+theme_override_fonts/italics_font = ExtResource("2_h7eg7")
+theme_override_font_sizes/normal_font_size = 40
+theme_override_font_sizes/italics_font_size = 40
+bbcode_enabled = true
+text = "Platycladus [i]platycladuskii[/i] p"
+autowrap_mode = 0
+vertical_alignment = 1

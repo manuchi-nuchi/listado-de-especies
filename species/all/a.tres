@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://bnan3j6i60l7j"]
+
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="1_f7rym"]
+
+[resource]
+script = ExtResource("1_f7rym")
+commonName = "adelfa"
+scientificName = "Nerium oleander"
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"
