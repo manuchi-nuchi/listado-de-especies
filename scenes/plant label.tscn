@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://qebudc088aj6"]
 
+[ext_resource type="Script" uid="uid://cb083he1sc2x7" path="res://scripts/SpeciesLabel.cs" id="1_sbwjj"]
 [ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="1_t5ms5"]
 [ext_resource type="FontFile" uid="uid://l30lbkpk6mio" path="res://res/fonts/EBGaramond-Italic-VariableFont_wght.ttf" id="2_h7eg7"]
 
@@ -35,13 +36,15 @@ VScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_ggu61")
 VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_jam7p")
 VScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_x1p0u")
 
-[node name="PlantLabel" type="Control" unique_id=699097035]
+[node name="PlantLabel" type="Control" unique_id=699097035 node_paths=PackedStringArray("label")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_sbwjj")
+label = NodePath("RichTextLabel")
 
 [node name="label bg color" type="ColorRect" parent="." unique_id=312146238]
 layout_mode = 1

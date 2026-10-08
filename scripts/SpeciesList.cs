@@ -8,4 +8,14 @@ using System.Collections.Generic;
 public partial class SpeciesList : Resource
 {
     [Export] public Array<Species> species;
+
+    public Species this[int x]
+    {
+        get => species[x];
+    }
+
+    public int Count
+    {
+        get => species.Count;
+    }
 }

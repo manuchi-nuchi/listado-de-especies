@@ -3,8 +3,9 @@
 [ext_resource type="Script" uid="uid://wg6f6glpred" path="res://scripts/SpeciesList.cs" id="1_ufrly"]
 [ext_resource type="Resource" uid="uid://o2iegyh3tdue" path="res://species/all/nerium_oleander.tres" id="2_3gade"]
 [ext_resource type="Resource" uid="uid://b38jyfrolpm72" path="res://species/all/cupressus_sempervirens.tres" id="3_bi5dp"]
+[ext_resource type="Resource" uid="uid://c3lbde1rr1h5s" path="res://species/all/hibiscus_syriacus.tres" id="4_bi5dp"]
 
 [resource]
 script = ExtResource("1_ufrly")
-species = Array[Object]([ExtResource("2_3gade"), ExtResource("3_bi5dp"), ExtResource("3_bi5dp"), ExtResource("3_bi5dp"), ExtResource("3_bi5dp"), ExtResource("2_3gade"), ExtResource("2_3gade"), ExtResource("3_bi5dp"), ExtResource("2_3gade"), ExtResource("2_3gade"), ExtResource("3_bi5dp")])
+species = Array[Object]([ExtResource("2_3gade"), ExtResource("3_bi5dp"), ExtResource("4_bi5dp")])
 metadata/_custom_type_script = "uid://wg6f6glpred"

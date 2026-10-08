@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://dujcdeg7aar2o"]
 
 [ext_resource type="PackedScene" uid="uid://qebudc088aj6" path="res://scenes/plant label.tscn" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://b7lvw7v74p5ei" path="res://scripts/MainManager.cs" id="1_tefeu"]
 [ext_resource type="Texture2D" uid="uid://bsupj72ghdht2" path="res://icon.svg" id="2_jyhfs"]
+[ext_resource type="Resource" uid="uid://di1kml8m50rrb" path="res://species/test.tres" id="2_o6xl0"]
 [ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="2_sugp2"]
 [ext_resource type="FontFile" uid="uid://l30lbkpk6mio" path="res://res/fonts/EBGaramond-Italic-VariableFont_wght.ttf" id="3_jyhfs"]
 
@@ -37,7 +39,11 @@ VScrollBar/styles/grabber_pressed = SubResource("StyleBoxEmpty_15t63")
 VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_10gry")
 VScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_b1niq")
 
-[node name="Node2D" type="Node2D" unique_id=936190083]
+[node name="Node2D" type="Node2D" unique_id=936190083 node_paths=PackedStringArray("labels", "scientificNameLabel")]
+script = ExtResource("1_tefeu")
+list = ExtResource("2_o6xl0")
+labels = [NodePath("CanvasLayer/list/species -2"), NodePath("CanvasLayer/list/species -1"), NodePath("CanvasLayer/list/species 0"), NodePath("CanvasLayer/list/species 1"), NodePath("CanvasLayer/list/species 2")]
+scientificNameLabel = NodePath("CanvasLayer/details/area/scientific name")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=404602259]
 
