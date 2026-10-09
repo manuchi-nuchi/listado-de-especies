@@ -2,12 +2,13 @@
 
 [ext_resource type="Texture2D" uid="uid://bupc7vb1k7ahg" path="res://res/img/nerium oleander 1.png" id="1_lic2w"]
 [ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="1_q0o7v"]
+[ext_resource type="Texture2D" uid="uid://b4ikw3ntkqfgj" path="res://res/img/nerium oleander 2.png" id="2_gu485"]
 
 [resource]
 script = ExtResource("1_q0o7v")
 commonName = "adelfa"
 scientificName = "Nerium oleander"
-image = ExtResource("1_lic2w")
+images = Array[Texture2D]([ExtResource("1_lic2w"), ExtResource("2_gu485")])
 color1 = Color(0.8635609, 0.7370687, 0.6759078, 1)
 color2 = Color(0.52783024, 0.79411817, 0.37817568, 1)
 color3 = Color(0.4, 0.08, 0.18666671, 1)

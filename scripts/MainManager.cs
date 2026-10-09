@@ -14,10 +14,10 @@ public partial class MainManager : Node
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-		SetNames();
+		SetSpecies();
 	}
 
-	void SetNames()
+	void SetSpecies()
 	{
         for (int i = 0; i < labels.Count; i++)
         {
@@ -25,23 +25,41 @@ public partial class MainManager : Node
         }
 
 		scientificNameLabel.Text = list[current].scientificName;
-		image.Texture = list[current].image;
+		image.Texture = list[current].Image;
     }
 
-	public override void _UnhandledInput(InputEvent @event)
+    void NextImage()
+    {
+        image.Texture = list[current].NextImage;
+    }
+
+    void PreviousImage()
+    {
+        image.Texture = list[current].PreviousImage;
+    }
+
+    public override void _UnhandledInput(InputEvent @event)
 	{
 		if (@event is InputEventKey keyEvent && keyEvent.Pressed)
 		{
             if (keyEvent.Keycode == Key.Down)
             {
                 current = ++current % list.Count;
-				SetNames();
+				SetSpecies();
             }
             else if (keyEvent.Keycode == Key.Up)
             {
                 current = (--current + list.Count) % list.Count;
-				SetNames();
+				SetSpecies();
             }
+			else if (keyEvent.Keycode == Key.Left)
+			{
+				NextImage();
+			}
+			else if (keyEvent.Keycode == Key.Right)
+			{
+				PreviousImage();
+			}
         }
 	}
 

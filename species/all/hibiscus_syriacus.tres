@@ -7,7 +7,7 @@
 script = ExtResource("1_mtgw0")
 commonName = "hibisco"
 scientificName = "Hibiscus syriacus"
-image = ExtResource("1_3qr34")
+images = Array[Texture2D]([ExtResource("1_3qr34")])
 color1 = Color(0.8635609, 0.7370687, 0.6759078, 1)
 color2 = Color(0.52783024, 0.79411817, 0.37817568, 1)
 color3 = Color(0.4, 0.08, 0.18666671, 1)

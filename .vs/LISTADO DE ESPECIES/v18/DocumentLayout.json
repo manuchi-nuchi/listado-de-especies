@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{46F4F937-93D9-45E0-917C-1355B1F524EE}|listado de especies.csproj|solutionrelative:scripts\\species.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{46F4F937-93D9-45E0-917C-1355B1F524EE}|listado de especies.csproj|c:\\users\\mherr\\documents\\github\\listado-de-especies\\scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F4F937-93D9-45E0-917C-1355B1F524EE}|listado de especies.csproj|solutionrelative:scripts\\mainmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46F4F937-93D9-45E0-917C-1355B1F524EE}|listado de especies.csproj|c:\\users\\mherr\\documents\\github\\listado-de-especies\\scripts\\specieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46F4F937-93D9-45E0-917C-1355B1F524EE}|listado de especies.csproj|solutionrelative:scripts\\specieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F4F937-93D9-45E0-917C-1355B1F524EE}|listado de especies.csproj|c:\\users\\mherr\\documents\\github\\listado-de-especies\\scripts\\specieslabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F4F937-93D9-45E0-917C-1355B1F524EE}|listado de especies.csproj|solutionrelative:scripts\\specieslabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 259,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainManager.cs",
+              "DocumentMoniker": "C:\\Users\\mherr\\Documents\\GitHub\\listado-de-especies\\scripts\\MainManager.cs",
+              "RelativeDocumentMoniker": "scripts\\MainManager.cs",
+              "ToolTip": "C:\\Users\\mherr\\Documents\\GitHub\\listado-de-especies\\scripts\\MainManager.cs",
+              "RelativeToolTip": "scripts\\MainManager.cs",
+              "ViewState": "AgIAACEAAAAASLBx/XvwvzEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T17:16:46.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpeciesLabel.cs",
+              "DocumentMoniker": "C:\\Users\\mherr\\Documents\\GitHub\\listado-de-especies\\scripts\\SpeciesLabel.cs",
+              "RelativeDocumentMoniker": "scripts\\SpeciesLabel.cs",
+              "ToolTip": "C:\\Users\\mherr\\Documents\\GitHub\\listado-de-especies\\scripts\\SpeciesLabel.cs",
+              "RelativeToolTip": "scripts\\SpeciesLabel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T17:14:54.792Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,23 +61,22 @@
               "RelativeDocumentMoniker": "scripts\\Species.cs",
               "ToolTip": "C:\\Users\\mherr\\Documents\\GitHub\\listado-de-especies\\scripts\\Species.cs",
               "RelativeToolTip": "scripts\\Species.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-01T19:41:42.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SpeciesList.cs",
               "DocumentMoniker": "C:\\Users\\mherr\\Documents\\GitHub\\listado-de-especies\\scripts\\SpeciesList.cs",
               "RelativeDocumentMoniker": "scripts\\SpeciesList.cs",
               "ToolTip": "C:\\Users\\mherr\\Documents\\GitHub\\listado-de-especies\\scripts\\SpeciesList.cs",
               "RelativeToolTip": "scripts\\SpeciesList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T19:37:46.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-01T19:37:46.54Z"
             }
           ]
         }
