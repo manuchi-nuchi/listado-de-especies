@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://cn0hbu1tratc8"]
+
+[ext_resource type="Texture2D" uid="uid://ckneepulc4ia4" path="res://res/img/autumn start/asclepias spp 1.png" id="1_ud2mg"]
+[ext_resource type="Texture2D" uid="uid://bott3uridfb27" path="res://res/img/autumn start/asclepias spp 2.png" id="2_0fv6n"]
+[ext_resource type="Texture2D" uid="uid://ck2q7p7y6t3op" path="res://res/img/autumn start/asclepias spp 3.png" id="3_6prty"]
+[ext_resource type="Texture2D" uid="uid://fu0i2ibucg6r" path="res://res/img/autumn start/asclepias spp 4.png" id="4_jsf0f"]
+[ext_resource type="Texture2D" uid="uid://dfd8n47xkhs8d" path="res://res/img/autumn start/asclepias spp 5.png" id="5_igef3"]
+[ext_resource type="Texture2D" uid="uid://cse7c242asy6i" path="res://res/img/autumn start/asclepias spp 6.png" id="6_a48df"]
+[ext_resource type="Texture2D" uid="uid://d134bafr2djs1" path="res://res/img/autumn start/asclepias spp 7.png" id="7_tqtec"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_6prty"]
+[ext_resource type="Texture2D" uid="uid://brhnpn7sbxgbw" path="res://res/img/autumn start/asclepias spp 8.png" id="8_c4s1p"]
+[ext_resource type="Texture2D" uid="uid://cxvwxjowwe36o" path="res://res/img/autumn start/asclepias spp 9.png" id="9_u52cr"]
+[ext_resource type="Texture2D" uid="uid://d161i3h5ahue7" path="res://res/img/autumn start/asclepias spp 10.png" id="10_rfcty"]
+[ext_resource type="Texture2D" uid="uid://bxbofasmftqel" path="res://res/img/autumn start/asclepias spp 11.png" id="11_sh44j"]
+[ext_resource type="Texture2D" uid="uid://boq8bl7fu4gdm" path="res://res/img/autumn start/asclepias spp 12.png" id="12_dlu6b"]
+
+[resource]
+script = ExtResource("8_6prty")
+commonName = "algodoncillo"
+scientificName = "[i]Asclepias[/i] spp"
+images = Array[Texture2D]([ExtResource("1_ud2mg"), ExtResource("2_0fv6n"), ExtResource("3_6prty"), ExtResource("4_jsf0f"), ExtResource("5_igef3"), ExtResource("6_a48df"), ExtResource("7_tqtec"), ExtResource("8_c4s1p"), ExtResource("9_u52cr"), ExtResource("10_rfcty"), ExtResource("11_sh44j"), ExtResource("12_dlu6b")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

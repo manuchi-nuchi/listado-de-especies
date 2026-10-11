@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://b5xpef4ed2u54"]
+
+[ext_resource type="Texture2D" uid="uid://d16d12hrcg1lj" path="res://res/img/autumn mid/callicarpa spp 1.png" id="1_id25u"]
+[ext_resource type="Texture2D" uid="uid://dyp2pxjakespr" path="res://res/img/autumn mid/callicarpa spp 2.png" id="2_d3vy5"]
+[ext_resource type="Texture2D" uid="uid://28ehaog6rrfu" path="res://res/img/autumn mid/callicarpa spp 3.png" id="3_6gte2"]
+[ext_resource type="Texture2D" uid="uid://evhvekd6mpna" path="res://res/img/autumn mid/callicarpa spp 4.png" id="4_sxxsi"]
+[ext_resource type="Texture2D" uid="uid://nothkcbf8arp" path="res://res/img/autumn mid/callicarpa spp 5.png" id="5_tfest"]
+[ext_resource type="Texture2D" uid="uid://bhv2g1kwqdrqs" path="res://res/img/autumn mid/callicarpa spp 6.png" id="6_lji8h"]
+[ext_resource type="Texture2D" uid="uid://w4peruf3wac3" path="res://res/img/autumn mid/callicarpa spp 7.png" id="7_btbju"]
+[ext_resource type="Texture2D" uid="uid://diqd6igqcp627" path="res://res/img/autumn mid/callicarpa spp 8.png" id="8_7n30q"]
+[ext_resource type="Texture2D" uid="uid://blkhpnm7w0b2g" path="res://res/img/autumn mid/callicarpa spp 9.png" id="9_u4avl"]
+[ext_resource type="Texture2D" uid="uid://djebd8jq8vga0" path="res://res/img/autumn mid/callicarpa spp 10.png" id="10_shmsq"]
+[ext_resource type="Texture2D" uid="uid://c4tx8fly5q5ny" path="res://res/img/autumn mid/callicarpa spp 11.png" id="11_0gyya"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="12_0gyya"]
+[ext_resource type="Texture2D" uid="uid://6ikrwrfqe5b4" path="res://res/img/autumn mid/callicarpa spp 12.png" id="12_kefpq"]
+
+[resource]
+script = ExtResource("12_0gyya")
+commonName = "calicarpa"
+scientificName = "[i]Callicarpa[/i] spp"
+images = Array[Texture2D]([ExtResource("1_id25u"), ExtResource("2_d3vy5"), ExtResource("3_6gte2"), ExtResource("4_sxxsi"), ExtResource("5_tfest"), ExtResource("6_lji8h"), ExtResource("7_btbju"), ExtResource("8_7n30q"), ExtResource("9_u4avl"), ExtResource("10_shmsq"), ExtResource("11_0gyya"), ExtResource("12_kefpq")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

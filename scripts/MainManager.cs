@@ -52,11 +52,11 @@ public partial class MainManager : Node
                 current = (--current + list.Count) % list.Count;
 				SetSpecies();
             }
-			else if (keyEvent.Keycode == Key.Left)
+			else if (keyEvent.Keycode == Key.Right)
 			{
 				NextImage();
 			}
-			else if (keyEvent.Keycode == Key.Right)
+			else if (keyEvent.Keycode == Key.Left)
 			{
 				PreviousImage();
 			}

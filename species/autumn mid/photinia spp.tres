@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://blupgff3ge1du"]
+
+[ext_resource type="Texture2D" uid="uid://d32ibxas2ikso" path="res://res/img/autumn mid/photinia spp 1.png" id="1_oj4tq"]
+[ext_resource type="Texture2D" uid="uid://dn61p8dw0ls0k" path="res://res/img/autumn mid/photinia spp 2.png" id="2_0e3pm"]
+[ext_resource type="Texture2D" uid="uid://fsjy3wq6aya0" path="res://res/img/autumn mid/photinia spp 3.png" id="3_lrkw6"]
+[ext_resource type="Texture2D" uid="uid://enmdmye1r8yo" path="res://res/img/autumn mid/photinia spp 4.png" id="4_4q26g"]
+[ext_resource type="Texture2D" uid="uid://ytvr4xdt7111" path="res://res/img/autumn mid/photinia spp 5.png" id="5_fk4ui"]
+[ext_resource type="Texture2D" uid="uid://ce1stp6dhk7j8" path="res://res/img/autumn mid/photinia spp 6.png" id="6_f306x"]
+[ext_resource type="Texture2D" uid="uid://cc2m0lnh7pctx" path="res://res/img/autumn mid/photinia spp 7.png" id="7_eqfqq"]
+[ext_resource type="Texture2D" uid="uid://dgqjfa6ie6gke" path="res://res/img/autumn mid/photinia spp 8.png" id="8_0f0hn"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_fk4ui"]
+[ext_resource type="Texture2D" uid="uid://cuhyvmof0cicu" path="res://res/img/autumn mid/photinia spp 9.png" id="9_u3ho8"]
+[ext_resource type="Texture2D" uid="uid://css2of24gas4f" path="res://res/img/autumn mid/photinia spp 10.png" id="10_d0nm5"]
+[ext_resource type="Texture2D" uid="uid://cjevbosxedw6s" path="res://res/img/autumn mid/photinia spp 11.png" id="11_0e3pm"]
+
+[resource]
+script = ExtResource("8_fk4ui")
+commonName = "fotinia"
+scientificName = "[i]Photinia[/i] spp"
+images = Array[Texture2D]([ExtResource("1_oj4tq"), ExtResource("2_0e3pm"), ExtResource("3_lrkw6"), ExtResource("4_4q26g"), ExtResource("5_fk4ui"), ExtResource("6_f306x"), ExtResource("7_eqfqq"), ExtResource("8_0f0hn"), ExtResource("9_u3ho8"), ExtResource("10_d0nm5"), ExtResource("11_0e3pm")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

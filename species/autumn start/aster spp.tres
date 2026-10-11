@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://b0ei6hxlx4iqk"]
+
+[ext_resource type="Texture2D" uid="uid://cph0dxnvptixg" path="res://res/img/autumn start/aster spp 1.png" id="1_whtpt"]
+[ext_resource type="Texture2D" uid="uid://d3d0825g3ur14" path="res://res/img/autumn start/aster spp 2.png" id="2_pq5lv"]
+[ext_resource type="Texture2D" uid="uid://bnyjogrcos48c" path="res://res/img/autumn start/aster spp 3.png" id="3_mmgw8"]
+[ext_resource type="Texture2D" uid="uid://c2e8u1bx2hays" path="res://res/img/autumn start/aster spp 4.png" id="4_ti1yn"]
+[ext_resource type="Texture2D" uid="uid://clk0j1xylk226" path="res://res/img/autumn start/aster spp 5.png" id="5_yhi50"]
+[ext_resource type="Texture2D" uid="uid://bvm4flbxtynci" path="res://res/img/autumn start/aster spp 6.png" id="6_7wsd1"]
+[ext_resource type="Texture2D" uid="uid://fh782h6d07pr" path="res://res/img/autumn start/aster spp 7.png" id="7_xyght"]
+[ext_resource type="Texture2D" uid="uid://dodvvr16gr782" path="res://res/img/autumn start/aster spp 8.png" id="8_d1dy5"]
+[ext_resource type="Texture2D" uid="uid://ducdjjnqjti10" path="res://res/img/autumn start/aster spp 9.png" id="9_jmalo"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="13_7vuqp"]
+
+[resource]
+script = ExtResource("13_7vuqp")
+commonName = "margarita de otoño"
+scientificName = "[i]Aster[/i] spp"
+images = Array[Texture2D]([ExtResource("1_whtpt"), ExtResource("2_pq5lv"), ExtResource("3_mmgw8"), ExtResource("4_ti1yn"), ExtResource("5_yhi50"), ExtResource("6_7wsd1"), ExtResource("7_xyght"), ExtResource("8_d1dy5"), ExtResource("9_jmalo")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

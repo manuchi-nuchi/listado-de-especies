@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://bnan3j6i60l7j"]
+
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="1_6oj0f"]
+[ext_resource type="Texture2D" uid="uid://dt5p7msko07xl" path="res://res/img/autumn start/cotinus coggygria 1.png" id="1_f20xh"]
+[ext_resource type="Texture2D" uid="uid://blrq5mnvuw33p" path="res://res/img/autumn start/cotinus coggygria 2.png" id="2_jkjp5"]
+[ext_resource type="Texture2D" uid="uid://b03pnyu2cwi1q" path="res://res/img/autumn start/cotinus coggygria 3.png" id="3_ilbla"]
+[ext_resource type="Texture2D" uid="uid://cdxsce26vwuny" path="res://res/img/autumn start/cotinus coggygria 4.png" id="4_ilbla"]
+[ext_resource type="Texture2D" uid="uid://cquj355x362s7" path="res://res/img/autumn start/cotinus coggygria 5.png" id="5_r2hi5"]
+[ext_resource type="Texture2D" uid="uid://d0vb10l6pen0g" path="res://res/img/autumn start/cotinus coggygria 6.png" id="6_r2hi5"]
+
+[resource]
+script = ExtResource("1_6oj0f")
+commonName = "árbol de las pelucas"
+scientificName = "[i]Cotinus coggygria[/i]"
+images = Array[Texture2D]([ExtResource("1_f20xh"), ExtResource("2_jkjp5"), ExtResource("3_ilbla"), ExtResource("4_ilbla"), ExtResource("5_r2hi5"), ExtResource("6_r2hi5")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

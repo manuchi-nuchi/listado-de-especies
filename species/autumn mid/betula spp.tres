@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://c0tetaouughot"]
+
+[ext_resource type="Texture2D" uid="uid://by4m42s7fx07d" path="res://res/img/autumn mid/betula spp 1.png" id="1_ojbi5"]
+[ext_resource type="Texture2D" uid="uid://ccynocw7mi1u6" path="res://res/img/autumn mid/betula spp 2.png" id="2_wq3ru"]
+[ext_resource type="Texture2D" uid="uid://dhwpm2baad5f0" path="res://res/img/autumn mid/betula spp 3.png" id="3_10f7g"]
+[ext_resource type="Texture2D" uid="uid://b8a4blg8ybdkm" path="res://res/img/autumn mid/betula spp 4.png" id="4_0yayu"]
+[ext_resource type="Texture2D" uid="uid://cqy6rggulwxks" path="res://res/img/autumn mid/betula spp 5.png" id="5_6fu7k"]
+[ext_resource type="Texture2D" uid="uid://dh41erw6sbix4" path="res://res/img/autumn mid/betula spp 6.png" id="6_t31e0"]
+[ext_resource type="Texture2D" uid="uid://coxcn8nca4sil" path="res://res/img/autumn mid/betula spp 7.png" id="7_gb76u"]
+[ext_resource type="Texture2D" uid="uid://ql1rrvujb7bx" path="res://res/img/autumn mid/betula spp 8.png" id="8_220i2"]
+[ext_resource type="Texture2D" uid="uid://clmpm2nooa8w5" path="res://res/img/autumn mid/betula spp 9.png" id="9_f1p03"]
+[ext_resource type="Texture2D" uid="uid://dxdgrj2wuw4hi" path="res://res/img/autumn mid/betula spp 10.png" id="10_7fdm7"]
+[ext_resource type="Texture2D" uid="uid://b8ifksvkb3sr" path="res://res/img/autumn mid/betula spp 11.png" id="11_raxh1"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="14_ckauf"]
+
+[resource]
+script = ExtResource("14_ckauf")
+commonName = "abedul"
+scientificName = "[i]Betula[/i] spp"
+images = Array[Texture2D]([ExtResource("1_ojbi5"), ExtResource("2_wq3ru"), ExtResource("3_10f7g"), ExtResource("4_0yayu"), ExtResource("5_6fu7k"), ExtResource("6_t31e0"), ExtResource("7_gb76u"), ExtResource("8_220i2"), ExtResource("9_f1p03"), ExtResource("10_7fdm7"), ExtResource("11_raxh1")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

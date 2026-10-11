@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://b5ws6s44u3pt"]
+
+[ext_resource type="Texture2D" uid="uid://b3lo1n4xfear0" path="res://res/img/autumn mid/capsicum spp 1.png" id="1_l3qr4"]
+[ext_resource type="Texture2D" uid="uid://b1kl0xwkt5bqr" path="res://res/img/autumn mid/capsicum spp 2.png" id="2_7obwv"]
+[ext_resource type="Texture2D" uid="uid://blth2t202yxvi" path="res://res/img/autumn mid/capsicum spp 3.png" id="3_f7pu4"]
+[ext_resource type="Texture2D" uid="uid://cn03csfxfonu8" path="res://res/img/autumn mid/capsicum spp 4.png" id="4_wl6np"]
+[ext_resource type="Texture2D" uid="uid://cpsbeeb8y4udd" path="res://res/img/autumn mid/capsicum spp 5.png" id="5_xfgur"]
+[ext_resource type="Texture2D" uid="uid://cb00e4wpdio7n" path="res://res/img/autumn mid/capsicum spp 6.png" id="6_2how5"]
+[ext_resource type="Texture2D" uid="uid://b30sutys2yw4l" path="res://res/img/autumn mid/capsicum spp 7.png" id="7_i2ag0"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="10_gub2g"]
+
+[resource]
+script = ExtResource("10_gub2g")
+commonName = "chile"
+scientificName = "[i]Capsicum[/i] spp"
+images = Array[Texture2D]([ExtResource("1_l3qr4"), ExtResource("2_7obwv"), ExtResource("3_f7pu4"), ExtResource("4_wl6np"), ExtResource("5_xfgur"), ExtResource("6_2how5"), ExtResource("7_i2ag0")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

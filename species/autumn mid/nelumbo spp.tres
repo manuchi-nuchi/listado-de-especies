@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://citja6bmsqhy2"]
+
+[ext_resource type="Texture2D" uid="uid://sbm2ec5useu4" path="res://res/img/autumn mid/nelumbo spp 1.png" id="1_mf3rb"]
+[ext_resource type="Texture2D" uid="uid://b3trwhc1wfyuh" path="res://res/img/autumn mid/nelumbo spp 2.png" id="2_gpj70"]
+[ext_resource type="Texture2D" uid="uid://dgogmud52x1sv" path="res://res/img/autumn mid/nelumbo spp 3.png" id="3_4hobk"]
+[ext_resource type="Texture2D" uid="uid://loivokrakvkb" path="res://res/img/autumn mid/nelumbo spp 4.png" id="4_ph3bn"]
+[ext_resource type="Texture2D" uid="uid://bhcvexx5fb4cy" path="res://res/img/autumn mid/nelumbo spp 5.png" id="5_ubr6c"]
+[ext_resource type="Texture2D" uid="uid://cr5dqxjskkof2" path="res://res/img/autumn mid/nelumbo spp 6.png" id="6_3jys8"]
+[ext_resource type="Texture2D" uid="uid://ca2xuvp18cujr" path="res://res/img/autumn mid/nelumbo spp 7.png" id="7_hq6bn"]
+[ext_resource type="Texture2D" uid="uid://ym3cjnvan80k" path="res://res/img/autumn mid/nelumbo spp 8.png" id="8_6pld2"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_gpj70"]
+[ext_resource type="Texture2D" uid="uid://b3d51vrcyyay5" path="res://res/img/autumn mid/nelumbo spp 9.png" id="9_anx63"]
+[ext_resource type="Texture2D" uid="uid://du5pyddtfff35" path="res://res/img/autumn mid/nelumbo spp 10.png" id="10_3mh1o"]
+[ext_resource type="Texture2D" uid="uid://ckuhh73y8nxoj" path="res://res/img/autumn mid/nelumbo spp 11.png" id="11_smmsj"]
+[ext_resource type="Texture2D" uid="uid://cp8xbqfo6ej2t" path="res://res/img/autumn mid/nelumbo spp 12.png" id="12_dwc48"]
+[ext_resource type="Texture2D" uid="uid://drmnhu70fqpfy" path="res://res/img/autumn mid/nelumbo spp 13.png" id="13_q31eq"]
+
+[resource]
+script = ExtResource("8_gpj70")
+commonName = "loto"
+scientificName = "[i]Nelumbo[/i] spp"
+images = Array[Texture2D]([ExtResource("1_mf3rb"), ExtResource("2_gpj70"), ExtResource("3_4hobk"), ExtResource("4_ph3bn"), ExtResource("5_ubr6c"), ExtResource("6_3jys8"), ExtResource("7_hq6bn"), ExtResource("8_6pld2"), ExtResource("9_anx63"), ExtResource("10_3mh1o"), ExtResource("11_smmsj"), ExtResource("12_dwc48"), ExtResource("13_q31eq")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://223g33xl4g8g"]
+
+[ext_resource type="Texture2D" uid="uid://csi4cy5enmeaq" path="res://res/img/autumn start/panicum miliaceum 1.png" id="1_ohmis"]
+[ext_resource type="Texture2D" uid="uid://cghi3lnt0xxgk" path="res://res/img/autumn start/panicum miliaceum 2.png" id="2_qyolt"]
+[ext_resource type="Texture2D" uid="uid://bjkg5rq7kfpsu" path="res://res/img/autumn start/panicum miliaceum 3.png" id="3_ivrvy"]
+[ext_resource type="Texture2D" uid="uid://bmif8icana2jp" path="res://res/img/autumn start/panicum miliaceum 4.png" id="4_oy541"]
+[ext_resource type="Texture2D" uid="uid://du1r8i26u1kmb" path="res://res/img/autumn start/panicum miliaceum 5.png" id="5_011iu"]
+[ext_resource type="Texture2D" uid="uid://cm7dyf71wi3ag" path="res://res/img/autumn start/panicum miliaceum 6.png" id="6_bee2s"]
+[ext_resource type="Texture2D" uid="uid://cm5j0ra7f8v26" path="res://res/img/autumn start/panicum miliaceum 7.png" id="7_baxnx"]
+[ext_resource type="Texture2D" uid="uid://bqk1oynq2vvil" path="res://res/img/autumn start/panicum miliaceum 8.png" id="8_75bot"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_baxnx"]
+
+[resource]
+script = ExtResource("8_baxnx")
+commonName = "mijo"
+scientificName = "[i]Panicum miliaceum[/i]"
+images = Array[Texture2D]([ExtResource("1_ohmis"), ExtResource("2_qyolt"), ExtResource("3_ivrvy"), ExtResource("4_oy541"), ExtResource("5_011iu"), ExtResource("6_bee2s"), ExtResource("7_baxnx"), ExtResource("8_75bot")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

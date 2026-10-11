@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://k1rogjh1rwxs"]
+
+[ext_resource type="Texture2D" uid="uid://1ykxfdbanog5" path="res://res/img/autumn end/heliconia collinsiana 1.png" id="1_w7td4"]
+[ext_resource type="Texture2D" uid="uid://bx5ynlpk7ui7g" path="res://res/img/autumn end/heliconia collinsiana 2.png" id="2_fi531"]
+[ext_resource type="Texture2D" uid="uid://be1mdxapy4bum" path="res://res/img/autumn end/heliconia collinsiana 3.png" id="3_07mar"]
+[ext_resource type="Texture2D" uid="uid://drolckwr7so3c" path="res://res/img/autumn end/heliconia collinsiana 4.png" id="4_7b6fa"]
+[ext_resource type="Texture2D" uid="uid://b6nkns1ikgl3m" path="res://res/img/autumn end/heliconia collinsiana 5.png" id="5_ywcqa"]
+[ext_resource type="Texture2D" uid="uid://df23c7hwl7viy" path="res://res/img/autumn end/heliconia collinsiana 6.png" id="6_0uoie"]
+[ext_resource type="Texture2D" uid="uid://b8pi5mwxpy1ep" path="res://res/img/autumn end/heliconia collinsiana 7.png" id="7_dlj6j"]
+[ext_resource type="Texture2D" uid="uid://c4thi4y3gvtl5" path="res://res/img/autumn end/heliconia collinsiana 8.png" id="8_ibrtu"]
+[ext_resource type="Texture2D" uid="uid://cjpv5bhci2eyf" path="res://res/img/autumn end/heliconia collinsiana 9.png" id="9_npy82"]
+[ext_resource type="Texture2D" uid="uid://dfs8k60ryicf7" path="res://res/img/autumn end/heliconia collinsiana 10.png" id="10_lcbfy"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="15_ff73f"]
+
+[resource]
+script = ExtResource("15_ff73f")
+commonName = "heliconia colgante"
+scientificName = "[i]Heliconia collinsiana[/i]"
+images = Array[Texture2D]([ExtResource("1_w7td4"), ExtResource("2_fi531"), ExtResource("3_07mar"), ExtResource("4_7b6fa"), ExtResource("5_ywcqa"), ExtResource("8_ibrtu"), ExtResource("6_0uoie"), ExtResource("7_dlj6j"), ExtResource("9_npy82"), ExtResource("10_lcbfy")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

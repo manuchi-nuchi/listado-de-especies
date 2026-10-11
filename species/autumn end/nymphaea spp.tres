@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://ds6mqpfav14c"]
+
+[ext_resource type="Texture2D" uid="uid://b22awaoxwjuqb" path="res://res/img/autumn end/nymphaea spp 1.png" id="1_dymc3"]
+[ext_resource type="Texture2D" uid="uid://bcmg03olgsfml" path="res://res/img/autumn end/nymphaea spp 2.png" id="2_u2w7r"]
+[ext_resource type="Texture2D" uid="uid://c2fl65ei2y5ge" path="res://res/img/autumn end/nymphaea spp 3.png" id="3_gkc0y"]
+[ext_resource type="Texture2D" uid="uid://bgefb87xcak1c" path="res://res/img/autumn end/nymphaea spp 4.png" id="4_p8kwm"]
+[ext_resource type="Texture2D" uid="uid://byrr21a0otcoc" path="res://res/img/autumn end/nymphaea spp 5.png" id="5_d3tl1"]
+[ext_resource type="Texture2D" uid="uid://c10yhrb1bfd5g" path="res://res/img/autumn end/nymphaea spp 6.png" id="6_07f3i"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="6_dymc3"]
+[ext_resource type="Texture2D" uid="uid://bnr27625grmyd" path="res://res/img/autumn end/nymphaea spp 7.png" id="7_1mxkj"]
+[ext_resource type="Texture2D" uid="uid://c0l5jrm6hwqfv" path="res://res/img/autumn end/nymphaea spp 8.png" id="8_ycxr0"]
+[ext_resource type="Texture2D" uid="uid://drhg6h4j21pe0" path="res://res/img/autumn end/nymphaea spp 9.png" id="9_gci3x"]
+[ext_resource type="Texture2D" uid="uid://dunkeoj3fcanw" path="res://res/img/autumn end/nymphaea spp 10.png" id="10_v0nwc"]
+
+[resource]
+script = ExtResource("6_dymc3")
+commonName = "nenúfar"
+scientificName = "[i]Nymphaea[/i] spp"
+images = Array[Texture2D]([ExtResource("1_dymc3"), ExtResource("2_u2w7r"), ExtResource("3_gkc0y"), ExtResource("4_p8kwm"), ExtResource("5_d3tl1"), ExtResource("6_07f3i"), ExtResource("7_1mxkj"), ExtResource("8_ycxr0"), ExtResource("9_gci3x"), ExtResource("10_v0nwc")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

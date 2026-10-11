@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://bhqle6x1tjak7"]
+
+[ext_resource type="Texture2D" uid="uid://bkeytefgqtb1u" path="res://res/img/autumn end/anigozanthos spp 1.png" id="1_6d41c"]
+[ext_resource type="Texture2D" uid="uid://cdp311k5s6qbe" path="res://res/img/autumn end/anigozanthos spp 2.png" id="2_lhyai"]
+[ext_resource type="Texture2D" uid="uid://dpr7ogskwvafr" path="res://res/img/autumn end/anigozanthos spp 3.png" id="3_24qfb"]
+[ext_resource type="Texture2D" uid="uid://celmdk0sq7fa8" path="res://res/img/autumn end/anigozanthos spp 4.png" id="4_wr20r"]
+[ext_resource type="Texture2D" uid="uid://c6ok8m817gs1" path="res://res/img/autumn end/anigozanthos spp 5.png" id="5_mcgwb"]
+[ext_resource type="Texture2D" uid="uid://cl50yvoh4uux2" path="res://res/img/autumn end/anigozanthos spp 6.png" id="6_c606v"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="6_j4nca"]
+[ext_resource type="Texture2D" uid="uid://bdacsiyx3abe1" path="res://res/img/autumn end/anigozanthos spp 7.png" id="7_uqjxd"]
+[ext_resource type="Texture2D" uid="uid://cth4lavjupqgh" path="res://res/img/autumn end/anigozanthos spp 8.png" id="8_qlx1l"]
+[ext_resource type="Texture2D" uid="uid://ddnrryuuo4eat" path="res://res/img/autumn end/anigozanthos spp 9.png" id="9_kj6e8"]
+[ext_resource type="Texture2D" uid="uid://bfqmrpflhc63a" path="res://res/img/autumn end/anigozanthos spp 10.png" id="10_48hq6"]
+[ext_resource type="Texture2D" uid="uid://dbdi0vk532dge" path="res://res/img/autumn end/anigozanthos spp 11.png" id="11_3hst1"]
+[ext_resource type="Texture2D" uid="uid://g72bf8kublde" path="res://res/img/autumn end/anigozanthos spp 12.png" id="12_oinnt"]
+
+[resource]
+script = ExtResource("6_j4nca")
+commonName = "pata de canguro"
+scientificName = "[i]Anigozanthos[/i] spp"
+images = Array[Texture2D]([ExtResource("1_6d41c"), ExtResource("2_lhyai"), ExtResource("3_24qfb"), ExtResource("4_wr20r"), ExtResource("5_mcgwb"), ExtResource("6_c606v"), ExtResource("7_uqjxd"), ExtResource("8_qlx1l"), ExtResource("9_kj6e8"), ExtResource("10_48hq6"), ExtResource("11_3hst1"), ExtResource("12_oinnt")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

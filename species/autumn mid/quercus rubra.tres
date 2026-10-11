@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://dv736h28h5g84"]
+
+[ext_resource type="Texture2D" uid="uid://cnenu1q032k4j" path="res://res/img/autumn mid/quercus rubra 1.png" id="1_52nw0"]
+[ext_resource type="Texture2D" uid="uid://k33j03kt7lqq" path="res://res/img/autumn mid/quercus rubra 2.png" id="2_cnojk"]
+[ext_resource type="Texture2D" uid="uid://down1jscb5fwq" path="res://res/img/autumn mid/quercus rubra 3.png" id="3_pv0be"]
+[ext_resource type="Texture2D" uid="uid://d2ih8trlvu3hq" path="res://res/img/autumn mid/quercus rubra 4.png" id="4_ds3f5"]
+[ext_resource type="Texture2D" uid="uid://dooadwg7vi4se" path="res://res/img/autumn mid/quercus rubra 5.png" id="5_idhjd"]
+[ext_resource type="Texture2D" uid="uid://cj447jfjjt8s4" path="res://res/img/autumn mid/quercus rubra 6.png" id="6_iy600"]
+[ext_resource type="Texture2D" uid="uid://c3i8e30ebrdx6" path="res://res/img/autumn mid/quercus rubra 7.png" id="7_ltgvp"]
+[ext_resource type="Texture2D" uid="uid://bmycoglclkw3u" path="res://res/img/autumn mid/quercus rubra 8.png" id="8_5pw3y"]
+[ext_resource type="Texture2D" uid="uid://c4bv264ymynxc" path="res://res/img/autumn mid/quercus rubra 9.png" id="9_ve752"]
+[ext_resource type="Texture2D" uid="uid://bv2t2hhnvja54" path="res://res/img/autumn mid/quercus rubra 10.png" id="10_1xlb8"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="10_ltgvp"]
+[ext_resource type="Texture2D" uid="uid://sqmpkuiqa5ef" path="res://res/img/autumn mid/quercus rubra 11.png" id="11_h7tdl"]
+[ext_resource type="Texture2D" uid="uid://dg4pf4gyvu60u" path="res://res/img/autumn mid/quercus rubra 12.png" id="12_btx1b"]
+
+[resource]
+script = ExtResource("10_ltgvp")
+commonName = "roble rojo"
+scientificName = "[i]Quercus rubra[/i]"
+images = Array[Texture2D]([ExtResource("1_52nw0"), ExtResource("2_cnojk"), ExtResource("3_pv0be"), ExtResource("4_ds3f5"), ExtResource("5_idhjd"), ExtResource("6_iy600"), ExtResource("7_ltgvp"), ExtResource("8_5pw3y"), ExtResource("9_ve752"), ExtResource("10_1xlb8"), ExtResource("11_h7tdl"), ExtResource("12_btx1b")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

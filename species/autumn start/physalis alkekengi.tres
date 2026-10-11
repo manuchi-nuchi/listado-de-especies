@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://yajsebw2rieg"]
+
+[ext_resource type="Texture2D" uid="uid://4xlcawse3ufg" path="res://res/img/autumn start/physalis alkekengi 1.png" id="1_43wkr"]
+[ext_resource type="Texture2D" uid="uid://c20af10qp6qqf" path="res://res/img/autumn start/physalis alkekengi 2.png" id="2_2jdp4"]
+[ext_resource type="Texture2D" uid="uid://bejmwcugi4wt2" path="res://res/img/autumn start/physalis alkekengi 3.png" id="3_8nbkw"]
+[ext_resource type="Texture2D" uid="uid://c36r10oj5ucc7" path="res://res/img/autumn start/physalis alkekengi 4.png" id="4_dgv43"]
+[ext_resource type="Texture2D" uid="uid://co5gqyv7petyt" path="res://res/img/autumn start/physalis alkekengi 5.png" id="5_uvam8"]
+[ext_resource type="Texture2D" uid="uid://mf3v8shyqqp3" path="res://res/img/autumn start/physalis alkekengi 6.png" id="6_j56kb"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="7_uvam8"]
+[ext_resource type="Texture2D" uid="uid://bpdfbxw7dxm2r" path="res://res/img/autumn start/physalis alkekengi 7.png" id="7_wc6gc"]
+[ext_resource type="Texture2D" uid="uid://dfbi5eoi21tsm" path="res://res/img/autumn start/physalis alkekengi 8.png" id="8_67tt3"]
+
+[resource]
+script = ExtResource("7_uvam8")
+commonName = "alquejenje"
+scientificName = "[i]Physalis alkekengi[/i]"
+images = Array[Texture2D]([ExtResource("1_43wkr"), ExtResource("2_2jdp4"), ExtResource("3_8nbkw"), ExtResource("4_dgv43"), ExtResource("5_uvam8"), ExtResource("6_j56kb"), ExtResource("7_wc6gc"), ExtResource("8_67tt3")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://bv6r0y2s5wfqb"]
+
+[ext_resource type="Texture2D" uid="uid://hvu71nretdfb" path="res://res/img/autumn mid/cornus spp 1.png" id="1_0vnd2"]
+[ext_resource type="Texture2D" uid="uid://bcwddk45dq257" path="res://res/img/autumn mid/cornus spp 2.png" id="2_pglxx"]
+[ext_resource type="Texture2D" uid="uid://b512mxc6ccgb0" path="res://res/img/autumn mid/cornus spp 3.png" id="3_y2nkr"]
+[ext_resource type="Texture2D" uid="uid://dvwkyj7wodr5w" path="res://res/img/autumn mid/cornus spp 4.png" id="4_ora6k"]
+[ext_resource type="Texture2D" uid="uid://c7l5bylma0u0a" path="res://res/img/autumn mid/cornus spp 5.png" id="5_kjw77"]
+[ext_resource type="Texture2D" uid="uid://uanghlphcj7m" path="res://res/img/autumn mid/cornus spp 6.png" id="6_lxvbp"]
+[ext_resource type="Texture2D" uid="uid://bgbke2xt10o2v" path="res://res/img/autumn mid/cornus spp 7.png" id="7_v8yxd"]
+[ext_resource type="Texture2D" uid="uid://bh4mnckruhs0a" path="res://res/img/autumn mid/cornus spp 8.png" id="8_c8xmu"]
+[ext_resource type="Texture2D" uid="uid://ffa7cdnp5enk" path="res://res/img/autumn mid/cornus spp 9.png" id="9_k8a3y"]
+[ext_resource type="Texture2D" uid="uid://bu5uy253hfoes" path="res://res/img/autumn mid/cornus spp 10.png" id="10_a8j5s"]
+[ext_resource type="Texture2D" uid="uid://rs4cpr5ami5u" path="res://res/img/autumn mid/cornus spp 11.png" id="11_i5xe0"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="12_v8yxd"]
+[ext_resource type="Texture2D" uid="uid://bip5y5k1tlj48" path="res://res/img/autumn mid/cornus spp 12.png" id="12_vwiss"]
+[ext_resource type="Texture2D" uid="uid://pe7j7er3sr5j" path="res://res/img/autumn mid/cornus spp 13.png" id="13_3r54h"]
+[ext_resource type="Texture2D" uid="uid://cno6fssibw7i4" path="res://res/img/autumn mid/cornus spp 14.png" id="14_ari30"]
+[ext_resource type="Texture2D" uid="uid://b51jrjtw50nfh" path="res://res/img/autumn mid/cornus spp 15.png" id="15_rt637"]
+[ext_resource type="Texture2D" uid="uid://c0uxj715siyud" path="res://res/img/autumn mid/cornus spp 16.png" id="16_t3il1"]
+
+[resource]
+script = ExtResource("12_v8yxd")
+commonName = "cornejo"
+scientificName = "[i]Cornus[/i] spp"
+images = Array[Texture2D]([ExtResource("1_0vnd2"), ExtResource("2_pglxx"), ExtResource("3_y2nkr"), ExtResource("4_ora6k"), ExtResource("5_kjw77"), ExtResource("6_lxvbp"), ExtResource("7_v8yxd"), ExtResource("8_c8xmu"), ExtResource("9_k8a3y"), ExtResource("10_a8j5s"), ExtResource("11_i5xe0"), ExtResource("12_vwiss"), ExtResource("13_3r54h"), ExtResource("14_ari30"), ExtResource("15_rt637"), ExtResource("16_t3il1")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

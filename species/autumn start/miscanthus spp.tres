@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://dbjmyp76384r2"]
+
+[ext_resource type="Texture2D" uid="uid://67cfcxmyicsi" path="res://res/img/autumn start/miscanthus spp 1.png" id="1_dbxo5"]
+[ext_resource type="Texture2D" uid="uid://dm61y1sevtll0" path="res://res/img/autumn start/miscanthus spp 2.png" id="2_i6a11"]
+[ext_resource type="Texture2D" uid="uid://cj1puhanyedvo" path="res://res/img/autumn start/miscanthus spp 3.png" id="3_0whx0"]
+[ext_resource type="Texture2D" uid="uid://brjorcp2gpfrc" path="res://res/img/autumn start/miscanthus spp 4.png" id="4_o8reb"]
+[ext_resource type="Texture2D" uid="uid://wmufugam62ul" path="res://res/img/autumn start/miscanthus spp 5.png" id="5_1w1is"]
+[ext_resource type="Texture2D" uid="uid://2w7mwog1tnq" path="res://res/img/autumn start/miscanthus spp 6.png" id="6_vqq6g"]
+[ext_resource type="Texture2D" uid="uid://y4dmt5t3k0ou" path="res://res/img/autumn start/miscanthus spp 7.png" id="7_vkdae"]
+[ext_resource type="Texture2D" uid="uid://xrs6w43f300f" path="res://res/img/autumn start/miscanthus spp 8.png" id="8_a2oci"]
+[ext_resource type="Texture2D" uid="uid://onvuy7igd515" path="res://res/img/autumn start/miscanthus spp 9.png" id="9_5c5dx"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="10_14mii"]
+
+[resource]
+script = ExtResource("10_14mii")
+commonName = "eulalia"
+scientificName = "[i]Miscanthus[/i] spp"
+images = Array[Texture2D]([ExtResource("1_dbxo5"), ExtResource("2_i6a11"), ExtResource("3_0whx0"), ExtResource("4_o8reb"), ExtResource("5_1w1is"), ExtResource("6_vqq6g"), ExtResource("7_vkdae"), ExtResource("8_a2oci"), ExtResource("9_5c5dx")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

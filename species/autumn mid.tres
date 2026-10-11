@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="SpeciesList" format=3 uid="uid://8lukfwak4av4"]
+
+[ext_resource type="Script" uid="uid://wg6f6glpred" path="res://scripts/SpeciesList.cs" id="1_dik8q"]
+[ext_resource type="Resource" uid="uid://b5ws6s44u3pt" path="res://species/autumn mid/capsicum spp.tres" id="2_b2vwm"]
+[ext_resource type="Resource" uid="uid://b4mp4a8hkgvek" path="res://species/autumn mid/malus sylvestris.tres" id="3_q6v17"]
+[ext_resource type="Resource" uid="uid://c1vr1u8fk452i" path="res://species/autumn mid/leucospermum spp.tres" id="4_6vjp7"]
+[ext_resource type="Resource" uid="uid://blupgff3ge1du" path="res://species/autumn mid/photinia spp.tres" id="5_grxyx"]
+[ext_resource type="Resource" uid="uid://citja6bmsqhy2" path="res://species/autumn mid/nelumbo spp.tres" id="6_0ijgo"]
+[ext_resource type="Resource" uid="uid://dv736h28h5g84" path="res://species/autumn mid/quercus rubra.tres" id="7_r6key"]
+[ext_resource type="Resource" uid="uid://c0tetaouughot" path="res://species/autumn mid/betula spp.tres" id="8_d784b"]
+[ext_resource type="Resource" uid="uid://b5xpef4ed2u54" path="res://species/autumn mid/callicarpa spp.tres" id="9_di3p5"]
+[ext_resource type="Resource" uid="uid://bsy5pdrx173c2" path="res://species/autumn mid/cucurbita spp.tres" id="10_8lb32"]
+[ext_resource type="Resource" uid="uid://bv6r0y2s5wfqb" path="res://species/autumn mid/cornus spp.tres" id="11_3swog"]
+[ext_resource type="Resource" uid="uid://phjij68cr6kd" path="res://species/autumn mid/calathea spp.tres" id="12_e54at"]
+
+[resource]
+script = ExtResource("1_dik8q")
+species = Array[Object]([ExtResource("2_b2vwm"), ExtResource("3_q6v17"), ExtResource("4_6vjp7"), ExtResource("5_grxyx"), ExtResource("6_0ijgo"), ExtResource("7_r6key"), ExtResource("8_d784b"), ExtResource("9_di3p5"), ExtResource("10_8lb32"), ExtResource("11_3swog"), ExtResource("12_e54at")])
+metadata/_custom_type_script = "uid://wg6f6glpred"

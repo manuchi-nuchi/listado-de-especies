@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://c1qwhtygue4dv"]
+
+[ext_resource type="Texture2D" uid="uid://cif21le2yrg6i" path="res://res/img/autumn start/curcuma longa 1.png" id="1_k8kx3"]
+[ext_resource type="Texture2D" uid="uid://kwdip1s51rgm" path="res://res/img/autumn start/curcuma longa 2.png" id="2_fgo4n"]
+[ext_resource type="Texture2D" uid="uid://dd6ady8osrwhn" path="res://res/img/autumn start/curcuma longa 3.png" id="3_ev4i0"]
+[ext_resource type="Texture2D" uid="uid://cl2lglgi6edn2" path="res://res/img/autumn start/curcuma longa 4.png" id="4_e5lju"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="5_e5lju"]
+[ext_resource type="Texture2D" uid="uid://b8mtcraeirknu" path="res://res/img/autumn start/curcuma longa 5.png" id="5_yutwm"]
+
+[resource]
+script = ExtResource("5_e5lju")
+commonName = "cúrcuma"
+scientificName = "[i]Curcuma longa[/i]"
+images = Array[Texture2D]([ExtResource("1_k8kx3"), ExtResource("2_fgo4n"), ExtResource("3_ev4i0"), ExtResource("4_e5lju"), ExtResource("5_yutwm")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

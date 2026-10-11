@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://cmyul5t44mgkd"]
+
+[ext_resource type="Texture2D" uid="uid://jns76fkju55t" path="res://res/img/autumn end/zingiber zerumbet 1.png" id="1_02ima"]
+[ext_resource type="Texture2D" uid="uid://bj06q22cmj870" path="res://res/img/autumn end/zingiber zerumbet 2.png" id="2_uk3de"]
+[ext_resource type="Texture2D" uid="uid://lbega74peg06" path="res://res/img/autumn end/zingiber zerumbet 3.png" id="3_yluyu"]
+[ext_resource type="Texture2D" uid="uid://dbxhonlkbj4no" path="res://res/img/autumn end/zingiber zerumbet 4.png" id="4_lnmrg"]
+[ext_resource type="Texture2D" uid="uid://c8q5x6ojpgb4v" path="res://res/img/autumn end/zingiber zerumbet 5.png" id="5_ko34h"]
+[ext_resource type="Texture2D" uid="uid://crs4vnwfvucbl" path="res://res/img/autumn end/zingiber zerumbet 6.png" id="6_jq3dm"]
+[ext_resource type="Texture2D" uid="uid://bb50t2r5a04x7" path="res://res/img/autumn end/zingiber zerumbet 7.png" id="7_xba6e"]
+[ext_resource type="Texture2D" uid="uid://bl2lopfjqclqx" path="res://res/img/autumn end/zingiber zerumbet 8.png" id="8_rxqky"]
+[ext_resource type="Texture2D" uid="uid://cw0kdn6y0kso4" path="res://res/img/autumn end/zingiber zerumbet 9.png" id="9_srgtg"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="9_yluyu"]
+[ext_resource type="Texture2D" uid="uid://67q6tg2e086j" path="res://res/img/autumn end/zingiber zerumbet 10.png" id="10_huy8a"]
+[ext_resource type="Texture2D" uid="uid://d2nksh8nvg4yg" path="res://res/img/autumn end/zingiber zerumbet 11.png" id="11_722er"]
+[ext_resource type="Texture2D" uid="uid://cbqc6qclhrbvm" path="res://res/img/autumn end/zingiber zerumbet 12.png" id="12_24lap"]
+[ext_resource type="Texture2D" uid="uid://c1dp4gufnpc77" path="res://res/img/autumn end/zingiber zerumbet 13.png" id="13_tltfk"]
+[ext_resource type="Texture2D" uid="uid://cstoy367vh2co" path="res://res/img/autumn end/zingiber zerumbet 14.png" id="14_o0d7p"]
+
+[resource]
+script = ExtResource("9_yluyu")
+commonName = "gengibre amargo"
+scientificName = "[i]Zingiber zerumbet[/i]"
+images = Array[Texture2D]([ExtResource("1_02ima"), ExtResource("2_uk3de"), ExtResource("3_yluyu"), ExtResource("4_lnmrg"), ExtResource("5_ko34h"), ExtResource("6_jq3dm"), ExtResource("7_xba6e"), ExtResource("8_rxqky"), ExtResource("9_srgtg"), ExtResource("10_huy8a"), ExtResource("11_722er"), ExtResource("12_24lap"), ExtResource("13_tltfk"), ExtResource("14_o0d7p")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"

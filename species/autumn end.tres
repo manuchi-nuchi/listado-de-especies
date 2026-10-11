@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SpeciesList" format=3 uid="uid://b8hgylxm5qu27"]
+
+[ext_resource type="Script" uid="uid://wg6f6glpred" path="res://scripts/SpeciesList.cs" id="1_6wvgy"]
+[ext_resource type="Resource" uid="uid://fsab11u7fqq2" path="res://species/autumn end/cucurbita pepo.tres" id="2_k8qnh"]
+[ext_resource type="Resource" uid="uid://bhqle6x1tjak7" path="res://species/autumn end/anigozanthos spp.tres" id="3_vagrp"]
+[ext_resource type="Resource" uid="uid://b05d7lft04pd6" path="res://species/autumn end/humulus lupulus.tres" id="4_ih6va"]
+[ext_resource type="Resource" uid="uid://cmyul5t44mgkd" path="res://species/autumn end/zingiber zerumbet.tres" id="5_lujv6"]
+[ext_resource type="Resource" uid="uid://k1rogjh1rwxs" path="res://species/autumn end/heliconia collinsiana.tres" id="6_tmx5f"]
+[ext_resource type="Resource" uid="uid://ds6mqpfav14c" path="res://species/autumn end/nymphaea spp.tres" id="7_e1413"]
+[ext_resource type="Resource" uid="uid://bhbtuxgpql7yf" path="res://species/autumn end/ligustrum spp.tres" id="8_3beee"]
+
+[resource]
+script = ExtResource("1_6wvgy")
+species = Array[Object]([ExtResource("2_k8qnh"), ExtResource("3_vagrp"), ExtResource("4_ih6va"), ExtResource("5_lujv6"), ExtResource("6_tmx5f"), ExtResource("7_e1413"), ExtResource("8_3beee")])
+metadata/_custom_type_script = "uid://wg6f6glpred"

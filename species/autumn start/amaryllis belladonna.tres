@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Species" format=3 uid="uid://bol5yhwkhkjn4"]
+
+[ext_resource type="Texture2D" uid="uid://bldq8e33ae43k" path="res://res/img/autumn start/amaryllis belladonna 1.png" id="1_35fj3"]
+[ext_resource type="Texture2D" uid="uid://c15qq1xrm4nqv" path="res://res/img/autumn start/amaryllis belladonna 2.png" id="2_fs1v2"]
+[ext_resource type="Texture2D" uid="uid://dyjg6dv76syoe" path="res://res/img/autumn start/amaryllis belladonna 3.png" id="3_hocym"]
+[ext_resource type="Texture2D" uid="uid://bsidldlekwfg2" path="res://res/img/autumn start/amaryllis belladonna 4.png" id="4_2p01a"]
+[ext_resource type="Texture2D" uid="uid://gpui20bhbf0k" path="res://res/img/autumn start/amaryllis belladonna 5.png" id="5_uur0w"]
+[ext_resource type="Texture2D" uid="uid://cbyxanx2r714c" path="res://res/img/autumn start/amaryllis belladonna 6.png" id="6_kcqqw"]
+[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="6_uur0w"]
+
+[resource]
+script = ExtResource("6_uur0w")
+commonName = "amarilis"
+scientificName = "[i]Amaryllis belladonna[/i]"
+images = Array[Texture2D]([ExtResource("1_35fj3"), ExtResource("2_fs1v2"), ExtResource("3_hocym"), ExtResource("4_2p01a"), ExtResource("5_uur0w"), ExtResource("6_kcqqw")])
+color1 = Color(0.7529412, 0.8, 0.56078434, 1)
+color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
+metadata/_custom_type_script = "uid://c0nj84vjao01i"
