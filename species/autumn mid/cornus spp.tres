@@ -22,7 +22,7 @@
 script = ExtResource("12_v8yxd")
 commonName = "cornejo"
 scientificName = "[i]Cornus[/i] spp"
-images = Array[Texture2D]([ExtResource("1_0vnd2"), ExtResource("2_pglxx"), ExtResource("3_y2nkr"), ExtResource("4_ora6k"), ExtResource("5_kjw77"), ExtResource("6_lxvbp"), ExtResource("7_v8yxd"), ExtResource("8_c8xmu"), ExtResource("9_k8a3y"), ExtResource("10_a8j5s"), ExtResource("11_i5xe0"), ExtResource("12_vwiss"), ExtResource("13_3r54h"), ExtResource("14_ari30"), ExtResource("15_rt637"), ExtResource("16_t3il1")])
+images = Array[Texture2D]([ExtResource("1_0vnd2"), ExtResource("2_pglxx"), ExtResource("3_y2nkr"), ExtResource("4_ora6k"), ExtResource("5_kjw77"), ExtResource("6_lxvbp"), ExtResource("7_v8yxd"), ExtResource("8_c8xmu"), ExtResource("9_k8a3y"), ExtResource("14_ari30"), ExtResource("11_i5xe0"), ExtResource("10_a8j5s"), ExtResource("12_vwiss"), ExtResource("13_3r54h"), ExtResource("15_rt637"), ExtResource("16_t3il1")])
 color1 = Color(0.7529412, 0.8, 0.56078434, 1)
 color2 = Color(0.6509804, 0.5058824, 0.29411766, 1)
 metadata/_custom_type_script = "uid://c0nj84vjao01i"

@@ -11,9 +11,14 @@ public partial class MainManager : Node
 	int current = 0;
 	int offset = -2;
 
-	// Called when the node enters the scene tree for the first time.
+	[Export(PropertyHint.File, "*.tscn")] string listSelectionSceneName;
+
+
 	public override void _Ready()
 	{
+		if (Globals.List != null)
+			list = Globals.List;
+
 		SetSpecies();
 	}
 
@@ -42,23 +47,26 @@ public partial class MainManager : Node
 	{
 		if (@event is InputEventKey keyEvent && keyEvent.Pressed)
 		{
-            if (keyEvent.Keycode == Key.Down)
-            {
-                current = ++current % list.Count;
-				SetSpecies();
-            }
-            else if (keyEvent.Keycode == Key.Up)
-            {
-                current = (--current + list.Count) % list.Count;
-				SetSpecies();
-            }
-			else if (keyEvent.Keycode == Key.Right)
+			switch (keyEvent.Keycode)
 			{
-				NextImage();
-			}
-			else if (keyEvent.Keycode == Key.Left)
-			{
-				PreviousImage();
+				case Key.Down:
+					current = ++current % list.Count;
+					SetSpecies();
+					break;
+				case Key.Up:
+					current = (--current + list.Count) % list.Count;
+					SetSpecies();
+					break;
+				case Key.Right:
+					NextImage();
+					break;
+				case Key.Left:
+					PreviousImage();
+					break;
+
+				case Key.Escape:
+					GetTree().ChangeSceneToFile(listSelectionSceneName);
+					break;
 			}
         }
 	}

@@ -45,6 +45,7 @@ list = ExtResource("2_tefeu")
 labels = [NodePath("CanvasLayer/list/species -2"), NodePath("CanvasLayer/list/species -1"), NodePath("CanvasLayer/list/species 0"), NodePath("CanvasLayer/list/species 1"), NodePath("CanvasLayer/list/species 2")]
 scientificNameLabel = NodePath("CanvasLayer/details/area/scientific name")
 image = NodePath("CanvasLayer/details/area/img bg color/img frame color/photo")
+listSelectionSceneName = "uid://mkcp07ehedh5"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=404602259]
 

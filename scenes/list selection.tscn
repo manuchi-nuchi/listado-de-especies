@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://mkcp07ehedh5"]
+
+[ext_resource type="Script" uid="uid://yr3d7umb4alr" path="res://scripts/ListSelection.cs" id="1_p3uwy"]
+[ext_resource type="PackedScene" uid="uid://bcunqpx7sa181" path="res://scenes/list button.tscn" id="2_ejlto"]
+[ext_resource type="Resource" uid="uid://x2l378slieay" path="res://species/autumn start.tres" id="4_1fwcl"]
+[ext_resource type="Resource" uid="uid://8lukfwak4av4" path="res://species/autumn mid.tres" id="4_06lw3"]
+[ext_resource type="Resource" uid="uid://b8hgylxm5qu27" path="res://species/autumn end.tres" id="5_h87jt"]
+
+[node name="ListSelection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons")]
+script = ExtResource("1_p3uwy")
+buttons = [NodePath("CanvasLayer/MarginContainer/GridContainer/autumn start"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]2"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]3"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn mid"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]4"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]5"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]6"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn end"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]7"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]8"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]9")]
+mainSceneName = "uid://dujcdeg7aar2o"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1300372925]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=850785214]
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer" unique_id=1809354462]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 250
+theme_override_constants/margin_top = 150
+theme_override_constants/margin_right = 250
+theme_override_constants/margin_bottom = 150
+
+[node name="GridContainer" type="GridContainer" parent="CanvasLayer/MarginContainer" unique_id=54278800]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="autumn start" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1314860515 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+list = ExtResource("4_1fwcl")
+
+[node name="RichTextLabel" parent="CanvasLayer/MarginContainer/GridContainer/autumn start" index="1" unique_id=2029889595]
+text = "principios de otoño"
+
+[node name="[wip]" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=417356989 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="[wip]2" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1071184950 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="[wip]3" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=259490113 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="autumn mid" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=2120982521 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+list = ExtResource("4_06lw3")
+
+[node name="RichTextLabel" parent="CanvasLayer/MarginContainer/GridContainer/autumn mid" index="1" unique_id=2029889595]
+text = "mediados de otoño"
+
+[node name="[wip]4" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=97028225 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="[wip]5" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1317885249 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="[wip]6" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=669245666 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="autumn end" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=395160440 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+list = ExtResource("5_h87jt")
+
+[node name="RichTextLabel" parent="CanvasLayer/MarginContainer/GridContainer/autumn end" index="1" unique_id=2029889595]
+text = "finales de otoño"
+
+[node name="[wip]7" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1770072548 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="[wip]8" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1880169057 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[node name="[wip]9" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1113807722 instance=ExtResource("2_ejlto")]
+layout_mode = 2
+
+[editable path="CanvasLayer/MarginContainer/GridContainer/autumn start"]
+[editable path="CanvasLayer/MarginContainer/GridContainer/autumn mid"]
+[editable path="CanvasLayer/MarginContainer/GridContainer/autumn end"]

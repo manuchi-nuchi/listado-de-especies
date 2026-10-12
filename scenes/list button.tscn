@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://bcunqpx7sa181"]
+
+[ext_resource type="Script" uid="uid://wa06n1gyinnj" path="res://scripts/ListButton.cs" id="1_b0ocq"]
+[ext_resource type="Shader" uid="uid://bq4nwbqmltx8l" path="res://shaders/color_invert.gdshader" id="2_ig1ou"]
+[ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="2_rypjc"]
+[ext_resource type="Texture2D" uid="uid://6ngwubwtlsr0" path="res://res/white circle 512.png" id="3_rypjc"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xt7np"]
+shader = ExtResource("2_ig1ou")
+
+[node name="ListButton" type="Control" unique_id=1314860515 node_paths=PackedStringArray("label", "underline")]
+custom_minimum_size = Vector2(400, 250)
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -125.0
+offset_right = 200.0
+offset_bottom = 125.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b0ocq")
+label = NodePath("RichTextLabel")
+underline = NodePath("Control/NinePatchRect")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1519306977]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.14767182, 0.14767179, 0.14767179, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=2029889595]
+custom_minimum_size = Vector2(400, 250)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -110.0
+offset_top = -50.0
+offset_right = 110.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_rypjc")
+theme_override_font_sizes/normal_font_size = 30
+text = "[wip]"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Control" type="Control" parent="." unique_id=1337230249]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = 20.279999
+offset_right = 20.0
+offset_bottom = 60.27997
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="Control" unique_id=1318839272]
+material = SubResource("ShaderMaterial_xt7np")
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -256.0
+offset_top = -256.0
+offset_right = 256.0
+offset_bottom = 256.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.005, 0.005)
+pivot_offset_ratio = Vector2(0.5, 0.5)
+texture = ExtResource("3_rypjc")
+patch_margin_left = 256
+patch_margin_right = 256
