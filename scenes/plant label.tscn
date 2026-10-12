@@ -47,6 +47,7 @@ script = ExtResource("1_sbwjj")
 label = NodePath("RichTextLabel")
 
 [node name="label bg color" type="ColorRect" parent="." unique_id=312146238]
+visible = false
 layout_mode = 1
 offset_left = -57.0
 offset_top = -44.0
