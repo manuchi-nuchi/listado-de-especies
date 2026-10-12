@@ -6,14 +6,14 @@ public partial class ListSelection : Node
 {
 	[Export] Array<ListButton> buttons;
 	[Export(PropertyHint.File, "*.tscn")] string mainSceneName;
-	Vector2I current = Vector2I.Zero;
+	Vector2I current = Globals.Current;
 	int columns = 4, rows = 3;
 
 
 	public override void _Ready()
 	{
 		for (int i = 0; i < buttons.Count; i++)
-			if (i == 0)
+			if (i == Current)
 				buttons[i].Select();
 			else
 				buttons[i].Deselect();
@@ -54,6 +54,7 @@ public partial class ListSelection : Node
 					if (CurrentButton.list != null)
 					{
 						Globals.List = CurrentButton.list;
+						Globals.Current = current;
 						GetTree().ChangeSceneToFile(mainSceneName);
 					}
 					break;
