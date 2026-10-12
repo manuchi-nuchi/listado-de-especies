@@ -5,13 +5,13 @@
 [ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="2_sugp2"]
 [ext_resource type="Resource" uid="uid://b8hgylxm5qu27" path="res://species/autumn end.tres" id="2_tefeu"]
 [ext_resource type="FontFile" uid="uid://l30lbkpk6mio" path="res://res/fonts/EBGaramond-Italic-VariableFont_wght.ttf" id="3_jyhfs"]
-[ext_resource type="Shader" uid="uid://cls61r51jnqvn" path="res://shaders/rounded_corners.gdshader" id="3_o6xl0"]
 [ext_resource type="Texture2D" uid="uid://f8ytck6gye3g" path="res://res/watercolor.png" id="4_85g3d"]
 [ext_resource type="Texture2D" uid="uid://bupc7vb1k7ahg" path="res://res/img/nerium oleander 1.png" id="4_tefeu"]
 [ext_resource type="Shader" uid="uid://bxghehd4nxg2s" path="res://shaders/bg_animation.gdshader" id="4_tipki"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_tefeu"]
-shader = ExtResource("3_o6xl0")
+[sub_resource type="Curve" id="Curve_tipki"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0wfyh"]
 
@@ -60,12 +60,17 @@ shader_parameter/strength = 0.37
 shader_parameter/speed = 0.002
 shader_parameter/alpha = 0.15
 
-[node name="Node2D" type="Node2D" unique_id=936190083 node_paths=PackedStringArray("labels", "scientificNameLabel", "image")]
+[node name="Node2D" type="Node2D" unique_id=936190083 node_paths=PackedStringArray("labels", "scientificNameLabel", "image", "bg", "watercolor", "frame")]
 script = ExtResource("1_tefeu")
 list = ExtResource("2_tefeu")
 labels = [NodePath("CanvasLayer/list/species -2"), NodePath("CanvasLayer/list/species -1"), NodePath("CanvasLayer/list/species 0"), NodePath("CanvasLayer/list/species 1"), NodePath("CanvasLayer/list/species 2")]
 scientificNameLabel = NodePath("CanvasLayer/details/area/scientific name")
-image = NodePath("CanvasLayer/details/area/img bg color/img frame color/photo")
+image = NodePath("CanvasLayer/details/area/img frame color/photo")
+bg = NodePath("CanvasLayer/bg color")
+watercolor = NodePath("CanvasLayer/watercolor")
+frame = NodePath("CanvasLayer/details/area/img frame color")
+animationDuration = 0.15
+ease = SubResource("Curve_tipki")
 listSelectionSceneName = "uid://mkcp07ehedh5"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=404602259]
@@ -73,49 +78,12 @@ listSelectionSceneName = "uid://mkcp07ehedh5"
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2128722662]
 
 [node name="bg color" type="ColorRect" parent="CanvasLayer" unique_id=2050172414]
+modulate = Color(0.7529412, 0.8, 0.56078434, 1)
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.7529412, 0.8, 0.56078434, 1)
-
-[node name="label bg" type="ColorRect" parent="CanvasLayer" unique_id=989901097]
-visible = false
-material = SubResource("ShaderMaterial_tefeu")
-instance_shader_parameters/color = Color(0.6509804, 0.5058824, 0.29411766, 1)
-instance_shader_parameters/height = 0.058000002755
-instance_shader_parameters/radius = 0.5210000247475
-instance_shader_parameters/width = 0.38400001824
-custom_minimum_size = Vector2(1300, 1300)
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_top = -50.0
-offset_right = 100.0
-offset_bottom = 50.0
-grow_vertical = 2
-color = Color(0, 0, 0, 1)
-
-[node name="image bg" type="ColorRect" parent="CanvasLayer" unique_id=121891330]
-visible = false
-material = SubResource("ShaderMaterial_tefeu")
-instance_shader_parameters/color = Color(0.6509804, 0.5058824, 0.29411766, 1)
-instance_shader_parameters/height = 0.342000016245
-instance_shader_parameters/width = 0.5
-custom_minimum_size = Vector2(1300, 1300)
-anchors_preset = 6
-anchor_left = 1.0
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-offset_left = -1200.0
-offset_top = -600.0
-offset_right = 100.0
-offset_bottom = 600.0
-grow_horizontal = 0
-grow_vertical = 2
-color = Color(0, 0, 0, 1)
 
 [node name="watercolor" type="TextureRect" parent="CanvasLayer" unique_id=622605061]
 modulate = Color(0.65, 0.50699997, 0.2925, 1)
@@ -157,17 +125,8 @@ offset_bottom = 443.5
 grow_horizontal = 0
 grow_vertical = 2
 
-[node name="img bg color" type="ColorRect" parent="CanvasLayer/details/area" unique_id=2130566698]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-pivot_offset_ratio = Vector2(0, 0.5)
-color = Color(0.65, 0.50699997, 0.2925, 0)
-
-[node name="img frame color" type="ColorRect" parent="CanvasLayer/details/area/img bg color" unique_id=1255451942]
+[node name="img frame color" type="ColorRect" parent="CanvasLayer/details/area" unique_id=1255451942]
+self_modulate = Color(0.4, 0.078431375, 0.078431375, 1)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -181,9 +140,8 @@ offset_bottom = 325.0
 grow_horizontal = 2
 grow_vertical = 2
 pivot_offset_ratio = Vector2(0, 0.5)
-color = Color(0.4, 0.078431375, 0.078431375, 1)
 
-[node name="photo" type="TextureRect" parent="CanvasLayer/details/area/img bg color/img frame color" unique_id=1776062493]
+[node name="photo" type="TextureRect" parent="CanvasLayer/details/area/img frame color" unique_id=1776062493]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5

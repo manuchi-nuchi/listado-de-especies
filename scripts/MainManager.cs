@@ -8,6 +8,13 @@ public partial class MainManager : Node
 	[Export] Array<SpeciesLabel> labels;
 	[Export] RichTextLabel scientificNameLabel;
 	[Export] TextureRect image;
+	
+	[Export] CanvasItem bg;
+	[Export] CanvasItem watercolor;
+	[Export] CanvasItem frame;
+	[Export] float animationDuration = 0.5f;
+	[Export] Curve ease;
+
 	int current = 0;
 	int offset = -2;
 
@@ -22,6 +29,20 @@ public partial class MainManager : Node
 		SetSpecies();
 	}
 
+	float t = Mathf.Inf, v;
+	Color previous1, previous2, previous3;
+    public override void _Process(double delta)
+    {
+		if (t > animationDuration)
+			return;
+
+		t += (float)delta;
+		v = ease.Sample(t / animationDuration);
+        bg.Modulate = previous1.Lerp(CurrentPlant.color1, v);
+        watercolor.Modulate = previous2.Lerp(CurrentPlant.color2, v);
+        frame.SelfModulate = previous3.Lerp(CurrentPlant.color3, v);
+    }
+
 	void SetSpecies()
 	{
         for (int i = 0; i < labels.Count; i++)
@@ -29,18 +50,28 @@ public partial class MainManager : Node
             labels[i].NewText(list[BoundedIndex(i)].commonName);
         }
 
-		scientificNameLabel.Text = list[current].scientificName;
-		image.Texture = list[current].Image;
+		scientificNameLabel.Text = CurrentPlant.scientificName;
+		image.Texture = CurrentPlant.Image;
+
+		SetColors();
     }
+
+	void SetColors()
+	{
+		t = 0;
+		previous1 = bg.Modulate;
+		previous2 = watercolor.Modulate;
+		previous3 = frame.SelfModulate;
+	}
 
     void NextImage()
     {
-        image.Texture = list[current].NextImage;
+        image.Texture = CurrentPlant.NextImage;
     }
 
     void PreviousImage()
     {
-        image.Texture = list[current].PreviousImage;
+        image.Texture = CurrentPlant.PreviousImage;
     }
 
     public override void _UnhandledInput(InputEvent @event)
@@ -75,5 +106,10 @@ public partial class MainManager : Node
 	int BoundedIndex(int i)
 	{
 		return (current + offset + i + list.Count) % list.Count;
+	}
+
+	Species CurrentPlant
+	{
+		get => list[current];
 	}
 }
