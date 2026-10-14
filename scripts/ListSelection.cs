@@ -16,7 +16,7 @@ public partial class ListSelection : Node
 			if (i == Current)
 				buttons[i].Select();
 			else
-				buttons[i].Deselect();
+				buttons[i].Deselect(true);
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.

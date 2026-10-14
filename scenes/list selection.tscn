@@ -37,6 +37,7 @@ columns = 4
 [node name="autumn start" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1314860515 instance=ExtResource("2_ejlto")]
 layout_mode = 2
 list = ExtResource("4_1fwcl")
+debug = true
 
 [node name="RichTextLabel" parent="CanvasLayer/MarginContainer/GridContainer/autumn start" index="1" unique_id=2029889595]
 text = "principios de otoño"
