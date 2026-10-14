@@ -4,16 +4,127 @@
 [ext_resource type="PackedScene" uid="uid://bcunqpx7sa181" path="res://scenes/list button.tscn" id="2_ejlto"]
 [ext_resource type="Resource" uid="uid://x2l378slieay" path="res://species/autumn start.tres" id="4_1fwcl"]
 [ext_resource type="Resource" uid="uid://8lukfwak4av4" path="res://species/autumn mid.tres" id="4_06lw3"]
+[ext_resource type="Texture2D" uid="uid://br80u8a6imr08" path="res://res/sprites/bg winter.png" id="5_6n8ed"]
 [ext_resource type="Resource" uid="uid://b8hgylxm5qu27" path="res://species/autumn end.tres" id="5_h87jt"]
+[ext_resource type="Texture2D" uid="uid://g47p86vyhh25" path="res://res/sprites/bg spring.png" id="6_bveup"]
+[ext_resource type="Shader" uid="uid://dqlbxergcxfra" path="res://shaders/gradient_loop.gdshader" id="6_gmyq0"]
+[ext_resource type="Script" uid="uid://bc41bowi816m1" path="res://scripts/MaterialToShader.cs" id="7_24k1n"]
+[ext_resource type="Texture2D" uid="uid://bh6istmwfu2bn" path="res://res/sprites/bg autumn.png" id="7_27py1"]
+[ext_resource type="Texture2D" uid="uid://ce51ltuyeik71" path="res://res/sprites/bg summer.png" id="7_vun34"]
 
-[node name="ListSelection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons")]
+[sub_resource type="Gradient" id="Gradient_vxkx1"]
+offsets = PackedFloat32Array(0, 0.30597016, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0.5597015, 0.5597015, 0.5597015, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_vap6o"]
+gradient = SubResource("Gradient_vxkx1")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xt7np"]
+shader = ExtResource("6_gmyq0")
+shader_parameter/gradient = SubResource("GradientTexture2D_vap6o")
+shader_parameter/speed = 0.4510000214225
+shader_parameter/scale = 0.1210000057475
+
+[sub_resource type="Gradient" id="Gradient_27py1"]
+offsets = PackedFloat32Array(0, 0.27108434, 0.73493975, 1)
+colors = PackedColorArray(0.43, 0.31820002, 0.094600014, 1, 0.72, 0.30024, 0.24479999, 1, 0.37341666, 0.5, 0.255, 1, 0.43137255, 0.31764707, 0.09411765, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_xt7np"]
+gradient = SubResource("Gradient_27py1")
+
+[sub_resource type="Gradient" id="Gradient_6n8ed"]
+offsets = PackedFloat32Array(0, 0.27108434, 0.73493975, 1)
+colors = PackedColorArray(0.69411767, 0.99607843, 0.8901961, 1, 0.7607843, 0.81960785, 0.9647059, 1, 0.83137256, 0.6, 0.7529412, 1, 0.69411767, 0.99607843, 0.8901961, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_6n8ed"]
+gradient = SubResource("Gradient_6n8ed")
+
+[sub_resource type="Gradient" id="Gradient_bveup"]
+offsets = PackedFloat32Array(0, 0.36144578, 0.61445785, 0.8313253, 1)
+colors = PackedColorArray(0.3882353, 0.6117647, 0.44313726, 1, 0.36078432, 0.627451, 0.92941177, 1, 0.83137256, 0.48235294, 0.68235296, 1, 0.61960787, 0.5411765, 0.13725491, 1, 0.3882353, 0.6117647, 0.44313726, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_bveup"]
+gradient = SubResource("Gradient_bveup")
+
+[sub_resource type="Gradient" id="Gradient_vun34"]
+offsets = PackedFloat32Array(0, 0.5060241, 0.73493975, 1)
+colors = PackedColorArray(0.63331693, 0.58129203, 0.23389119, 1, 0.72, 0.36, 0.36, 1, 0.67, 0.3484, 0.53064, 1, 0.6313726, 0.5803922, 0.23529412, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_vun34"]
+gradient = SubResource("Gradient_vun34")
+
+[node name="ListSelection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons", "bg")]
 script = ExtResource("1_p3uwy")
 buttons = [NodePath("CanvasLayer/MarginContainer/GridContainer/autumn start"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]2"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]3"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn mid"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]4"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]5"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]6"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn end"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]7"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]8"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]9")]
+bg = [NodePath("CanvasLayer/bg/autumn"), NodePath("CanvasLayer/bg/winter"), NodePath("CanvasLayer/bg/spring"), NodePath("CanvasLayer/bg/summer")]
+bgFadeDuration = 0.5
 mainSceneName = "uid://dujcdeg7aar2o"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1300372925]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=850785214]
+
+[node name="bg" type="Control" parent="CanvasLayer" unique_id=1711145010]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="autumn" type="TextureRect" parent="CanvasLayer/bg" unique_id=1528217949]
+material = SubResource("ShaderMaterial_xt7np")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1880.0
+offset_bottom = 1040.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_27py1")
+script = ExtResource("7_24k1n")
+gradient = SubResource("GradientTexture2D_xt7np")
+
+[node name="winter" type="TextureRect" parent="CanvasLayer/bg" unique_id=367491049]
+material = SubResource("ShaderMaterial_xt7np")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1880.0
+offset_bottom = 1040.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_6n8ed")
+script = ExtResource("7_24k1n")
+gradient = SubResource("GradientTexture2D_6n8ed")
+
+[node name="spring" type="TextureRect" parent="CanvasLayer/bg" unique_id=1166216098]
+material = SubResource("ShaderMaterial_xt7np")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1880.0
+offset_bottom = 1040.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_bveup")
+script = ExtResource("7_24k1n")
+gradient = SubResource("GradientTexture2D_bveup")
+
+[node name="summer" type="TextureRect" parent="CanvasLayer/bg" unique_id=303759899]
+material = SubResource("ShaderMaterial_xt7np")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1880.0
+offset_bottom = 1040.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_vun34")
+script = ExtResource("7_24k1n")
+gradient = SubResource("GradientTexture2D_vun34")
 
 [node name="MarginContainer" type="MarginContainer" parent="CanvasLayer" unique_id=1809354462]
 anchors_preset = 15
@@ -37,7 +148,6 @@ columns = 4
 [node name="autumn start" parent="CanvasLayer/MarginContainer/GridContainer" unique_id=1314860515 instance=ExtResource("2_ejlto")]
 layout_mode = 2
 list = ExtResource("4_1fwcl")
-debug = true
 
 [node name="RichTextLabel" parent="CanvasLayer/MarginContainer/GridContainer/autumn start" index="1" unique_id=2029889595]
 text = "principios de otoño"

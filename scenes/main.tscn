@@ -5,7 +5,7 @@
 [ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="2_sugp2"]
 [ext_resource type="Resource" uid="uid://b8hgylxm5qu27" path="res://species/autumn end.tres" id="2_tefeu"]
 [ext_resource type="FontFile" uid="uid://l30lbkpk6mio" path="res://res/fonts/EBGaramond-Italic-VariableFont_wght.ttf" id="3_jyhfs"]
-[ext_resource type="Texture2D" uid="uid://f8ytck6gye3g" path="res://res/watercolor.png" id="4_85g3d"]
+[ext_resource type="Texture2D" uid="uid://f8ytck6gye3g" path="res://res/sprites/watercolor.png" id="4_85g3d"]
 [ext_resource type="Texture2D" uid="uid://bupc7vb1k7ahg" path="res://res/img/nerium oleander 1.png" id="4_tefeu"]
 [ext_resource type="Shader" uid="uid://bxghehd4nxg2s" path="res://shaders/bg_animation.gdshader" id="4_tipki"]
 

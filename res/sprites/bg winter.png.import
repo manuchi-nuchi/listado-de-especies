@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://f8ytck6gye3g"
-path="res://.godot/imported/watercolor.png-5082e9f3c0c46612d404dadfad570d3e.ctex"
+uid="uid://br80u8a6imr08"
+path="res://.godot/imported/bg winter.png-d877eab45f93c21667249793fd45a3f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://res/watercolor.png"
-dest_files=["res://.godot/imported/watercolor.png-5082e9f3c0c46612d404dadfad570d3e.ctex"]
+source_file="res://res/sprites/bg winter.png"
+dest_files=["res://.godot/imported/bg winter.png-d877eab45f93c21667249793fd45a3f0.ctex"]
 
 [params]
 

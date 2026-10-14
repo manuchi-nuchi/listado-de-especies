@@ -5,9 +5,14 @@ using System;
 public partial class ListSelection : Node
 {
 	[Export] Array<ListButton> buttons;
+	[Export] Array<CanvasItem> bg;
+	Array<Tween> tweens;
+	[Export] float bgFadeDuration = .2f;
+
 	[Export(PropertyHint.File, "*.tscn")] string mainSceneName;
 	Vector2I current = Globals.Current;
 	int columns = 4, rows = 3;
+	Color shown = new Color(1, 1, 1, 1), hidden = new Color(1, 1, 1, 0);
 
 
 	public override void _Ready()
@@ -17,6 +22,18 @@ public partial class ListSelection : Node
 				buttons[i].Select();
 			else
 				buttons[i].Deselect(true);
+
+		tweens = new Array<Tween>();
+		for (int i = 0; i < bg.Count; i++)
+			tweens.Add(null);
+
+		for (int i = 0; i < bg.Count; i++)
+		{
+			HideBg(i, true);
+		
+			if (i == current.X)
+				ShowBg(i);
+		}
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -32,13 +49,17 @@ public partial class ListSelection : Node
 			{
                 case Key.Left:
 					CurrentButton.Deselect();
+					HideBg(current.X);
                     current.X = (--current.X + columns) % columns;
 					CurrentButton.Select();
+					ShowBg(current.X);
                     break;
                 case Key.Right:
 					CurrentButton.Deselect();
+					HideBg(current.X);
                     current.X = ++current.X % columns;
 					CurrentButton.Select();
+					ShowBg(current.X);
                     break;
                 case Key.Up:
 					CurrentButton.Deselect();
@@ -62,7 +83,35 @@ public partial class ListSelection : Node
 		}
     }
 
-	int VtoI()
+
+    void ShowBg(int index)
+    {
+		tweens[index]?.Kill();
+		tweens[index] = CreateTween();
+		tweens[index].TweenInterval(bgFadeDuration * .5);
+		tweens[index].TweenProperty(bg[index], "modulate", shown, bgFadeDuration)
+			.SetTrans(Tween.TransitionType.Sine)
+			.SetEase(Tween.EaseType.InOut);
+    }
+
+    void HideBg(int index, bool insta = false)
+    {
+		if (insta)
+		{
+			bg[index].Modulate = hidden;
+		}
+		else
+		{
+			tweens[index]?.Kill();
+			tweens[index] = CreateTween();
+			tweens[index].TweenProperty(bg[index], "modulate", hidden, bgFadeDuration)
+				.SetTrans(Tween.TransitionType.Sine)
+				.SetEase(Tween.EaseType.InOut);
+		}
+    }
+
+
+    int VtoI()
 	{
 		return current.X + current.Y * columns;
 	}
