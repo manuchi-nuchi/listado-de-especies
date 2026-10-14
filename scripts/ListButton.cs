@@ -13,6 +13,8 @@ public partial class ListButton : Node
 	[Export] float maxWidth = 62000;
 	float startWidth, targetWidth;
 	[Export] float animationDuration = 1;
+	[Export] float backDurationScale = 2;
+	float actualDuration;
 	[Export] Curve ease;
 	float t = Mathf.Inf, v;
 	Vector2 size;
@@ -22,17 +24,18 @@ public partial class ListButton : Node
 	public override void _Ready()
 	{
 		targetScale = new Vector2(targetScaleValue, targetScaleValue);
+		actualDuration = animationDuration;
 
 		size = underline.Size;
 	}
 
     public override void _Process(double delta)
     {
-		if (t > animationDuration)
+		if (t > actualDuration)
 			return;
 
 		t += (float)delta;
-		v = ease.Sample(t / animationDuration);
+		v = ease.Sample(t / actualDuration);
         size.X = Mathf.Lerp(startWidth, targetWidth, v);
 		underline.Size = size;
 		underline.Position = -size / 2f;
@@ -42,7 +45,8 @@ public partial class ListButton : Node
 
 	public void Select()
 	{
-		t = t < animationDuration ? animationDuration - t : 0;
+		t = t < actualDuration ? (actualDuration - t) / backDurationScale : 0;
+		actualDuration = animationDuration;
 		startWidth = minWidth;
 		targetWidth = maxWidth;
     }
@@ -58,7 +62,8 @@ public partial class ListButton : Node
 		}
 		else
 		{
-			t = t < animationDuration ? animationDuration - t : 0;
+			t = t < actualDuration ? (actualDuration - t) * backDurationScale : 0;
+			actualDuration = animationDuration * backDurationScale;
 			startWidth = maxWidth;
 			targetWidth = minWidth;
 		}

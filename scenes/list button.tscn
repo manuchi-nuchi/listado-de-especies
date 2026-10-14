@@ -30,6 +30,7 @@ script = ExtResource("1_b0ocq")
 label = NodePath("RichTextLabel")
 underline = NodePath("Control/NinePatchRect")
 animationDuration = 0.3
+backDurationScale = 3.0
 ease = SubResource("Curve_rypjc")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1519306977]
