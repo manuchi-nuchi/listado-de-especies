@@ -12,7 +12,7 @@ public partial class ListSelection : Node
 	[Export(PropertyHint.File, "*.tscn")] string mainSceneName;
 	Vector2I current = Globals.Current;
 	int columns = 4, rows = 3;
-	Color shown = new Color(1, 1, 1, 1), hidden = new Color(1, 1, 1, 0);
+	Color shown = new Color(1, 1, 1, 1), hidden = new Color(1, 1, 1, 0.01f);
 
 
 	public override void _Ready()

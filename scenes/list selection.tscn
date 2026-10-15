@@ -5,6 +5,7 @@
 [ext_resource type="Resource" uid="uid://x2l378slieay" path="res://species/autumn start.tres" id="4_1fwcl"]
 [ext_resource type="Resource" uid="uid://8lukfwak4av4" path="res://species/autumn mid.tres" id="4_06lw3"]
 [ext_resource type="Texture2D" uid="uid://br80u8a6imr08" path="res://res/sprites/bg winter.png" id="5_6n8ed"]
+[ext_resource type="Texture2D" uid="uid://6ngwubwtlsr0" path="res://res/sprites/white circle 512.png" id="5_bveup"]
 [ext_resource type="Resource" uid="uid://b8hgylxm5qu27" path="res://species/autumn end.tres" id="5_h87jt"]
 [ext_resource type="Texture2D" uid="uid://g47p86vyhh25" path="res://res/sprites/bg spring.png" id="6_bveup"]
 [ext_resource type="Shader" uid="uid://dqlbxergcxfra" path="res://shaders/gradient_loop.gdshader" id="6_gmyq0"]
@@ -32,12 +33,50 @@ colors = PackedColorArray(0.43, 0.31820002, 0.094600014, 1, 0.72, 0.30024, 0.244
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_xt7np"]
 gradient = SubResource("Gradient_27py1")
 
-[sub_resource type="Gradient" id="Gradient_6n8ed"]
+[sub_resource type="Gradient" id="Gradient_rk00v"]
+offsets = PackedFloat32Array(0, 0.47540984, 1)
+colors = PackedColorArray(0.3756887, 0.24846858, 0.047594003, 1, 0.37341666, 0.5, 0.255, 1, 0.6208366, 0.3424201, 0.09775492, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_pqap2"]
+gradient = SubResource("Gradient_rk00v")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xt7np"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1000, 1, 1)
+gravity = Vector3(0, 98, 0)
+scale_min = 0.0
+scale_max = 0.03
+color_initial_ramp = SubResource("GradientTexture1D_pqap2")
+turbulence_enabled = true
+turbulence_noise_strength = 20.0
+turbulence_noise_scale = 9.012
+
+[sub_resource type="Gradient" id="Gradient_xumvu"]
 offsets = PackedFloat32Array(0, 0.27108434, 0.73493975, 1)
-colors = PackedColorArray(0.69411767, 0.99607843, 0.8901961, 1, 0.7607843, 0.81960785, 0.9647059, 1, 0.83137256, 0.6, 0.7529412, 1, 0.69411767, 0.99607843, 0.8901961, 1)
+colors = PackedColorArray(0.67473304, 0.99573654, 0.88431764, 1, 0.7797357, 0.83406574, 0.9675792, 1, 0.8860444, 0.7173893, 0.8260862, 1, 0.6745098, 0.99607843, 0.8862745, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_6n8ed"]
+gradient = SubResource("Gradient_xumvu")
+
+[sub_resource type="Gradient" id="Gradient_6n8ed"]
+offsets = PackedFloat32Array(0, 0.27108434, 0.73493975, 1)
+colors = PackedColorArray(0.8079122, 0.9976303, 0.927306, 1, 0.86039644, 0.89517826, 0.9795392, 1, 0.9020169, 0.7552821, 0.8491087, 1, 0.9085236, 0.99879915, 0.96385175, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_bveup"]
 gradient = SubResource("Gradient_6n8ed")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_vun34"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1000, 1, 1)
+gravity = Vector3(0, 98, 0)
+scale_min = 0.0
+scale_max = 0.03
+color_initial_ramp = SubResource("GradientTexture1D_bveup")
+turbulence_enabled = true
+turbulence_noise_strength = 20.0
+turbulence_noise_scale = 9.012
 
 [sub_resource type="Gradient" id="Gradient_bveup"]
 offsets = PackedFloat32Array(0, 0.36144578, 0.61445785, 0.8313253, 1)
@@ -46,12 +85,50 @@ colors = PackedColorArray(0.3882353, 0.6117647, 0.44313726, 1, 0.36078432, 0.627
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_bveup"]
 gradient = SubResource("Gradient_bveup")
 
+[sub_resource type="Gradient" id="Gradient_ch27g"]
+offsets = PackedFloat32Array(0, 0.36065573, 0.61445785, 0.8313253, 1)
+colors = PackedColorArray(0.2623, 0.61, 0.349225, 1, 0.2418, 0.56296, 0.93, 1, 0.83, 0.3071, 0.60341, 1, 0.83, 0.7151833, 0.1411, 1, 0.2627451, 0.6117647, 0.34901962, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ch27g"]
+gradient = SubResource("Gradient_ch27g")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ayeiy"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1000, 1, 1)
+gravity = Vector3(0, -98, 0)
+scale_min = 0.0
+scale_max = 0.03
+color_initial_ramp = SubResource("GradientTexture1D_ch27g")
+turbulence_enabled = true
+turbulence_noise_strength = 20.0
+turbulence_noise_scale = 9.012
+
 [sub_resource type="Gradient" id="Gradient_vun34"]
 offsets = PackedFloat32Array(0, 0.5060241, 0.73493975, 1)
 colors = PackedColorArray(0.63331693, 0.58129203, 0.23389119, 1, 0.72, 0.36, 0.36, 1, 0.67, 0.3484, 0.53064, 1, 0.6313726, 0.5803922, 0.23529412, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_vun34"]
 gradient = SubResource("Gradient_vun34")
+
+[sub_resource type="Gradient" id="Gradient_ayeiy"]
+offsets = PackedFloat32Array(0, 0.5060241, 0.73493975, 1)
+colors = PackedColorArray(0.63331693, 0.58129203, 0.23389119, 1, 0.72, 0.36, 0.36, 1, 0.55, 0.1045, 0.1045, 1, 0.6313726, 0.5803922, 0.23529412, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_rk00v"]
+gradient = SubResource("Gradient_ayeiy")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_m4sgp"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1000, 1, 1)
+gravity = Vector3(0, -98, 0)
+scale_min = 0.0
+scale_max = 0.03
+color_initial_ramp = SubResource("GradientTexture1D_rk00v")
+turbulence_enabled = true
+turbulence_noise_strength = 20.0
+turbulence_noise_scale = 9.012
 
 [node name="ListSelection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons", "bg")]
 script = ExtResource("1_p3uwy")
@@ -84,6 +161,30 @@ texture = ExtResource("7_27py1")
 script = ExtResource("7_24k1n")
 gradient = SubResource("GradientTexture2D_xt7np")
 
+[node name="GPUParticles2D" type="GPUParticles2D" parent="CanvasLayer/bg/autumn" unique_id=916273308]
+z_index = -100
+position = Vector2(960, 0)
+amount = 20
+texture = ExtResource("5_bveup")
+lifetime = 40.6
+process_material = SubResource("ParticleProcessMaterial_xt7np")
+
+[node name="opaqueness" type="TextureRect" parent="CanvasLayer/bg/autumn" unique_id=433582074]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("7_27py1")
+
+[node name="opaqueness2" type="TextureRect" parent="CanvasLayer/bg/autumn" unique_id=1051141946]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("7_27py1")
+
 [node name="winter" type="TextureRect" parent="CanvasLayer/bg" unique_id=367491049]
 material = SubResource("ShaderMaterial_xt7np")
 layout_mode = 1
@@ -97,6 +198,30 @@ grow_vertical = 2
 texture = ExtResource("5_6n8ed")
 script = ExtResource("7_24k1n")
 gradient = SubResource("GradientTexture2D_6n8ed")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="CanvasLayer/bg/winter" unique_id=1852688396]
+z_index = -10
+position = Vector2(960, 0)
+amount = 20
+texture = ExtResource("5_bveup")
+lifetime = 40.6
+process_material = SubResource("ParticleProcessMaterial_vun34")
+
+[node name="opaqueness" type="TextureRect" parent="CanvasLayer/bg/winter" unique_id=1777013494]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("5_6n8ed")
+
+[node name="opaqueness2" type="TextureRect" parent="CanvasLayer/bg/winter" unique_id=1166375061]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("5_6n8ed")
 
 [node name="spring" type="TextureRect" parent="CanvasLayer/bg" unique_id=1166216098]
 material = SubResource("ShaderMaterial_xt7np")
@@ -112,6 +237,30 @@ texture = ExtResource("6_bveup")
 script = ExtResource("7_24k1n")
 gradient = SubResource("GradientTexture2D_bveup")
 
+[node name="GPUParticles2D" type="GPUParticles2D" parent="CanvasLayer/bg/spring" unique_id=1740256657]
+z_index = -10
+position = Vector2(960, 1080)
+amount = 20
+texture = ExtResource("5_bveup")
+lifetime = 40.6
+process_material = SubResource("ParticleProcessMaterial_ayeiy")
+
+[node name="opaqueness" type="TextureRect" parent="CanvasLayer/bg/spring" unique_id=1197179559]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("6_bveup")
+
+[node name="opaqueness2" type="TextureRect" parent="CanvasLayer/bg/spring" unique_id=632799236]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("6_bveup")
+
 [node name="summer" type="TextureRect" parent="CanvasLayer/bg" unique_id=303759899]
 material = SubResource("ShaderMaterial_xt7np")
 layout_mode = 1
@@ -125,6 +274,30 @@ grow_vertical = 2
 texture = ExtResource("7_vun34")
 script = ExtResource("7_24k1n")
 gradient = SubResource("GradientTexture2D_vun34")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="CanvasLayer/bg/summer" unique_id=703300068]
+z_index = -10
+position = Vector2(960, 1080)
+amount = 20
+texture = ExtResource("5_bveup")
+lifetime = 40.6
+process_material = SubResource("ParticleProcessMaterial_m4sgp")
+
+[node name="opaqueness" type="TextureRect" parent="CanvasLayer/bg/summer" unique_id=2083471370]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("7_vun34")
+
+[node name="opaqueness2" type="TextureRect" parent="CanvasLayer/bg/summer" unique_id=160983001]
+modulate = Color(0, 0, 0, 1)
+z_index = -10
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("7_vun34")
 
 [node name="MarginContainer" type="MarginContainer" parent="CanvasLayer" unique_id=1809354462]
 anchors_preset = 15
