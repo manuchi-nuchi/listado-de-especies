@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://cq5yijdodgbyh"]
+
+[ext_resource type="Shader" uid="uid://ia0grl1klkeo" path="res://shaders/scene_transition.gdshader" id="1_a5q5d"]
+[ext_resource type="Script" uid="uid://cqkycc6wr823y" path="res://scripts/SceneTransitionAnimation.cs" id="1_sj5gx"]
+
+[sub_resource type="Curve" id="Curve_nq7hy"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_sj5gx"]
+noise_type = 3
+frequency = 0.015
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_rujfs"]
+noise = SubResource("FastNoiseLite_sj5gx")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_nq7hy"]
+shader = ExtResource("1_a5q5d")
+shader_parameter/radius = 0.890000042275
+shader_parameter/openness = 1.0
+shader_parameter/thickness = 0.2990000142025
+shader_parameter/color = Color(0, 0, 0, 1)
+shader_parameter/noise = SubResource("NoiseTexture2D_rujfs")
+
+[node name="A" type="CanvasLayer" unique_id=107480122 node_paths=PackedStringArray("target")]
+layer = 1000
+script = ExtResource("1_sj5gx")
+fadeDuration = 0.8
+pauseDuration = 0.1
+ease = SubResource("Curve_nq7hy")
+target = NodePath("Control/ColorRect")
+
+[node name="Control" type="Control" parent="." unique_id=1098633522]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=845457069]
+z_index = 1000
+material = SubResource("ShaderMaterial_nq7hy")
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -2000.0
+offset_top = -2000.0
+offset_right = 2000.0
+offset_bottom = 2000.0
+grow_horizontal = 2
+grow_vertical = 2

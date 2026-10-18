@@ -14,9 +14,15 @@ public partial class ListSelection : Node
 	int columns = 4, rows = 3;
 	Color shown = new Color(1, 1, 1, 1), hidden = new Color(1, 1, 1, 0.01f);
 
+	[Export] SceneTransitionAnimation sta;
 
-	public override void _Ready()
+
+	public override async void _Ready()
 	{
+		// need to wait 1 frame fro control nodes to have a valid position
+        await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame);
+        Globals.TransitionPosition = CurrentButton.GetGlobalRect().GetCenter();
+        
 		for (int i = 0; i < buttons.Count; i++)
 			if (i == Current)
 				buttons[i].Select();
@@ -34,15 +40,16 @@ public partial class ListSelection : Node
 			if (i == current.X)
 				ShowBg(i);
 		}
+
+		
 	}
 
-	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override void _Process(double delta)
-	{
-	}
-
+	
     public override void _UnhandledInput(InputEvent @event)
     {
+		if (Globals.ChangingScene)
+			return;
+
         if (@event is InputEventKey eventKey && eventKey.Pressed && !eventKey.Echo)
 		{
 			switch (eventKey.Keycode)
@@ -76,7 +83,9 @@ public partial class ListSelection : Node
 					{
 						Globals.List = CurrentButton.list;
 						Globals.Current = current;
-						GetTree().ChangeSceneToFile(mainSceneName);
+						Globals.NewScenePath = mainSceneName;
+						Globals.TransitionPosition = CurrentButton.GetGlobalRect().GetCenter();
+                        Actions.ChangeScene?.Invoke();
 					}
 					break;
             }

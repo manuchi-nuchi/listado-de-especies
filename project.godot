@@ -15,6 +15,10 @@ run/main_scene="uid://mkcp07ehedh5"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+SceneTransition="*uid://cq5yijdodgbyh"
+
 [display]
 
 window/size/viewport_width=1920

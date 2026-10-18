@@ -19,6 +19,7 @@ public partial class MainManager : Node
 	int offset = -2;
 
 	[Export(PropertyHint.File, "*.tscn")] string listSelectionSceneName;
+	[Export] Control transitionOrigin;
 
 
 	public override void _Ready()
@@ -26,7 +27,9 @@ public partial class MainManager : Node
 		if (Globals.List != null)
 			list = Globals.List;
 
-		SetSpecies();
+        Globals.TransitionPosition = transitionOrigin.GlobalPosition;
+
+        SetSpecies();
 	}
 
 	float t = Mathf.Inf, v;
@@ -76,6 +79,9 @@ public partial class MainManager : Node
 
     public override void _UnhandledInput(InputEvent @event)
 	{
+		if (Globals.ChangingScene)
+			return;
+
 		if (@event is InputEventKey keyEvent && keyEvent.Pressed)
 		{
 			switch (keyEvent.Keycode)
@@ -96,7 +102,8 @@ public partial class MainManager : Node
 					break;
 
 				case Key.Escape:
-					GetTree().ChangeSceneToFile(listSelectionSceneName);
+					Globals.NewScenePath = listSelectionSceneName;
+					Actions.ChangeScene?.Invoke();
 					break;
 			}
         }

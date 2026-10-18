@@ -2,7 +2,7 @@ using Godot;
 using System;
 
 
-public partial class ListButton : Node
+public partial class ListButton : Control
 {
 	[Export] public SpeciesList list = null;
 	[Export] RichTextLabel label;
