@@ -1,14 +1,14 @@
 [gd_scene format=3 uid="uid://bcunqpx7sa181"]
 
-[ext_resource type="Script" uid="uid://wa06n1gyinnj" path="res://scripts/ListButton.cs" id="1_b0ocq"]
+[ext_resource type="Script" uid="uid://1pp6h3shjbtv" path="res://scripts/list_button.gd" id="1_b0ocq"]
 [ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="2_rypjc"]
 [ext_resource type="Texture2D" uid="uid://6ngwubwtlsr0" path="res://res/sprites/white circle 512.png" id="3_rypjc"]
 
-[sub_resource type="Curve" id="Curve_rypjc"]
+[sub_resource type="Curve" id="Curve_24gwq"]
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
 point_count = 2
 
-[node name="ListButton" type="Control" unique_id=1314860515 node_paths=PackedStringArray("label", "underline")]
+[node name="ListButton" type="Control" unique_id=1314860515 node_paths=PackedStringArray("underline")]
 custom_minimum_size = Vector2(400, 250)
 layout_mode = 3
 anchors_preset = 8
@@ -23,12 +23,8 @@ offset_bottom = 125.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_b0ocq")
-label = NodePath("RichTextLabel")
 underline = NodePath("Control/NinePatchRect")
-maxWidth = 70000.0
-animationDuration = 0.3
-backDurationScale = 3.0
-ease = SubResource("Curve_rypjc")
+ease_curve = SubResource("Curve_24gwq")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1519306977]
 visible = false

@@ -8,12 +8,10 @@
 [ext_resource type="Texture2D" uid="uid://cm7dyf71wi3ag" path="res://res/img/autumn start/panicum miliaceum 6.png" id="6_bee2s"]
 [ext_resource type="Texture2D" uid="uid://cm5j0ra7f8v26" path="res://res/img/autumn start/panicum miliaceum 7.png" id="7_baxnx"]
 [ext_resource type="Texture2D" uid="uid://bqk1oynq2vvil" path="res://res/img/autumn start/panicum miliaceum 8.png" id="8_75bot"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_baxnx"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="8_baxnx"]
 
 [resource]
 script = ExtResource("8_baxnx")
-commonName = "mijo"
-scientificName = "[i]Panicum miliaceum[/i]"
 images = Array[Texture2D]([ExtResource("1_ohmis"), ExtResource("2_qyolt"), ExtResource("3_ivrvy"), ExtResource("4_oy541"), ExtResource("5_011iu"), ExtResource("6_bee2s"), ExtResource("7_baxnx"), ExtResource("8_75bot")])
 color1 = Color(0.7909102, 0.89184374, 0.7053576, 1)
 color2 = Color(0.62, 0.55634665, 0.2728, 1)

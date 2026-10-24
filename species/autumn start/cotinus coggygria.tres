@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Species" format=3 uid="uid://bnan3j6i60l7j"]
 
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="1_6oj0f"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="1_6oj0f"]
 [ext_resource type="Texture2D" uid="uid://dt5p7msko07xl" path="res://res/img/autumn start/cotinus coggygria 1.png" id="1_f20xh"]
 [ext_resource type="Texture2D" uid="uid://blrq5mnvuw33p" path="res://res/img/autumn start/cotinus coggygria 2.png" id="2_jkjp5"]
 [ext_resource type="Texture2D" uid="uid://b03pnyu2cwi1q" path="res://res/img/autumn start/cotinus coggygria 3.png" id="3_ilbla"]
@@ -10,8 +10,6 @@
 
 [resource]
 script = ExtResource("1_6oj0f")
-commonName = "árbol de las pelucas"
-scientificName = "[i]Cotinus coggygria[/i]"
 images = Array[Texture2D]([ExtResource("1_f20xh"), ExtResource("2_jkjp5"), ExtResource("3_ilbla"), ExtResource("4_ilbla"), ExtResource("5_r2hi5"), ExtResource("6_r2hi5")])
 color1 = Color(0.56, 0.8, 0.64400005, 1)
 color2 = Color(0.53147, 0.45042497, 0.8236304, 1)

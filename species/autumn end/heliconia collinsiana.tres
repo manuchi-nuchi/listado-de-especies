@@ -10,12 +10,10 @@
 [ext_resource type="Texture2D" uid="uid://c4thi4y3gvtl5" path="res://res/img/autumn end/heliconia collinsiana 8.png" id="8_ibrtu"]
 [ext_resource type="Texture2D" uid="uid://cjpv5bhci2eyf" path="res://res/img/autumn end/heliconia collinsiana 9.png" id="9_npy82"]
 [ext_resource type="Texture2D" uid="uid://dfs8k60ryicf7" path="res://res/img/autumn end/heliconia collinsiana 10.png" id="10_lcbfy"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="15_ff73f"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="15_ff73f"]
 
 [resource]
 script = ExtResource("15_ff73f")
-commonName = "heliconia colgante"
-scientificName = "[i]Heliconia collinsiana[/i]"
 images = Array[Texture2D]([ExtResource("1_w7td4"), ExtResource("2_fi531"), ExtResource("3_07mar"), ExtResource("4_7b6fa"), ExtResource("5_ywcqa"), ExtResource("8_ibrtu"), ExtResource("6_0uoie"), ExtResource("7_dlj6j"), ExtResource("9_npy82"), ExtResource("10_lcbfy")])
 color1 = Color(0.8632207, 0.6743496, 0.72689646, 1)
 color2 = Color(0.618076, 0.5839355, 0.2730802, 1)

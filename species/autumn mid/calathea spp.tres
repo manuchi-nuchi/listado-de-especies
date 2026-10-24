@@ -9,12 +9,10 @@
 [ext_resource type="Texture2D" uid="uid://cuw410nu1baah" path="res://res/img/autumn mid/calathea spp 7.png" id="7_3v2jh"]
 [ext_resource type="Texture2D" uid="uid://drkeovqlrruco" path="res://res/img/autumn mid/calathea spp 8.png" id="8_jtky2"]
 [ext_resource type="Texture2D" uid="uid://drcxa4ndfjaxw" path="res://res/img/autumn mid/calathea spp 9.png" id="9_rwrw5"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="12_1flc8"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="12_1flc8"]
 
 [resource]
 script = ExtResource("12_1flc8")
-commonName = "calatea"
-scientificName = "[i]Calathea[/i] spp"
 images = Array[Texture2D]([ExtResource("1_tl11b"), ExtResource("2_7rh23"), ExtResource("3_i3iho"), ExtResource("4_gxgng"), ExtResource("5_p3nmd"), ExtResource("6_tqfso"), ExtResource("7_3v2jh"), ExtResource("8_jtky2"), ExtResource("9_rwrw5")])
 color1 = Color(0.81865454, 0.7249198, 0.88655865, 1)
 color2 = Color(0.32059407, 0.7030041, 0.42131433, 1)

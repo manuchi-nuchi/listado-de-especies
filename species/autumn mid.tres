@@ -1,7 +1,8 @@
 [gd_resource type="Resource" script_class="SpeciesList" format=3 uid="uid://8lukfwak4av4"]
 
-[ext_resource type="Script" uid="uid://wg6f6glpred" path="res://scripts/SpeciesList.cs" id="1_dik8q"]
+[ext_resource type="Script" uid="uid://bkrjecbd0rkxf" path="res://scripts/species_list.gd" id="1_dik8q"]
 [ext_resource type="Resource" uid="uid://b5ws6s44u3pt" path="res://species/autumn mid/capsicum spp.tres" id="2_b2vwm"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="2_nqcfh"]
 [ext_resource type="Resource" uid="uid://b4mp4a8hkgvek" path="res://species/autumn mid/malus sylvestris.tres" id="3_q6v17"]
 [ext_resource type="Resource" uid="uid://c1vr1u8fk452i" path="res://species/autumn mid/leucospermum spp.tres" id="4_6vjp7"]
 [ext_resource type="Resource" uid="uid://blupgff3ge1du" path="res://species/autumn mid/photinia spp.tres" id="5_grxyx"]
@@ -15,5 +16,5 @@
 
 [resource]
 script = ExtResource("1_dik8q")
-species = Array[Object]([ExtResource("2_b2vwm"), ExtResource("3_q6v17"), ExtResource("4_6vjp7"), ExtResource("5_grxyx"), ExtResource("6_0ijgo"), ExtResource("7_r6key"), ExtResource("8_d784b"), ExtResource("9_di3p5"), ExtResource("10_8lb32"), ExtResource("11_3swog"), ExtResource("12_e54at")])
+species = Array[ExtResource("2_nqcfh")]([ExtResource("2_b2vwm"), ExtResource("3_q6v17"), ExtResource("4_6vjp7"), ExtResource("5_grxyx"), ExtResource("6_0ijgo"), ExtResource("7_r6key"), ExtResource("8_d784b"), ExtResource("9_di3p5"), ExtResource("10_8lb32"), ExtResource("11_3swog"), ExtResource("12_e54at")])
 metadata/_custom_type_script = "uid://wg6f6glpred"

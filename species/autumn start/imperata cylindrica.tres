@@ -7,12 +7,10 @@
 [ext_resource type="Texture2D" uid="uid://b07wvmxjlh8be" path="res://res/img/autumn start/imperata cylindrica 5.png" id="5_iqruj"]
 [ext_resource type="Texture2D" uid="uid://7rnpgat5ufe5" path="res://res/img/autumn start/imperata cylindrica 6.png" id="6_a086j"]
 [ext_resource type="Texture2D" uid="uid://ct35pegtqry0y" path="res://res/img/autumn start/imperata cylindrica 7.png" id="7_1plnw"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_17638"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="8_17638"]
 
 [resource]
 script = ExtResource("8_17638")
-commonName = "carrizo rojo"
-scientificName = "[i]Imperata cylindrica[/i]"
 images = Array[Texture2D]([ExtResource("1_21ofm"), ExtResource("2_hewfr"), ExtResource("3_a0rjh"), ExtResource("4_23d0y"), ExtResource("5_iqruj"), ExtResource("6_a086j"), ExtResource("7_1plnw")])
 color1 = Color(0.6583372, 0.6956889, 0.8566849, 1)
 color2 = Color(0.65, 0.3520833, 0.2925, 1)

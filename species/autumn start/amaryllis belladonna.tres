@@ -6,12 +6,10 @@
 [ext_resource type="Texture2D" uid="uid://bsidldlekwfg2" path="res://res/img/autumn start/amaryllis belladonna 4.png" id="4_2p01a"]
 [ext_resource type="Texture2D" uid="uid://gpui20bhbf0k" path="res://res/img/autumn start/amaryllis belladonna 5.png" id="5_uur0w"]
 [ext_resource type="Texture2D" uid="uid://cbyxanx2r714c" path="res://res/img/autumn start/amaryllis belladonna 6.png" id="6_kcqqw"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="6_uur0w"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="6_uur0w"]
 
 [resource]
 script = ExtResource("6_uur0w")
-commonName = "amarilis"
-scientificName = "[i]Amaryllis belladonna[/i]"
 images = Array[Texture2D]([ExtResource("1_35fj3"), ExtResource("2_fs1v2"), ExtResource("3_hocym"), ExtResource("4_2p01a"), ExtResource("5_uur0w"), ExtResource("6_kcqqw")])
 color1 = Color(0.8867046, 0.73453057, 0.84866, 1)
 color2 = Color(0.2925, 0.65, 0.38783333, 1)

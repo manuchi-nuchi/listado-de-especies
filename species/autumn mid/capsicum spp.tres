@@ -7,12 +7,10 @@
 [ext_resource type="Texture2D" uid="uid://cpsbeeb8y4udd" path="res://res/img/autumn mid/capsicum spp 5.png" id="5_xfgur"]
 [ext_resource type="Texture2D" uid="uid://cb00e4wpdio7n" path="res://res/img/autumn mid/capsicum spp 6.png" id="6_2how5"]
 [ext_resource type="Texture2D" uid="uid://b30sutys2yw4l" path="res://res/img/autumn mid/capsicum spp 7.png" id="7_i2ag0"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="10_gub2g"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="10_gub2g"]
 
 [resource]
 script = ExtResource("10_gub2g")
-commonName = "chile"
-scientificName = "[i]Capsicum[/i] spp"
 images = Array[Texture2D]([ExtResource("1_l3qr4"), ExtResource("2_7obwv"), ExtResource("3_f7pu4"), ExtResource("4_wl6np"), ExtResource("5_xfgur"), ExtResource("6_2how5"), ExtResource("7_i2ag0")])
 color1 = Color(0.616, 0.8, 0.56, 1)
 color2 = Color(0.65, 0.2925, 0.2925, 1)

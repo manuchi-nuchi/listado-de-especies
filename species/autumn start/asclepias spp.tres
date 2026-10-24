@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dfd8n47xkhs8d" path="res://res/img/autumn start/asclepias spp 5.png" id="5_igef3"]
 [ext_resource type="Texture2D" uid="uid://cse7c242asy6i" path="res://res/img/autumn start/asclepias spp 6.png" id="6_a48df"]
 [ext_resource type="Texture2D" uid="uid://d134bafr2djs1" path="res://res/img/autumn start/asclepias spp 7.png" id="7_tqtec"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_6prty"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="8_6prty"]
 [ext_resource type="Texture2D" uid="uid://brhnpn7sbxgbw" path="res://res/img/autumn start/asclepias spp 8.png" id="8_c4s1p"]
 [ext_resource type="Texture2D" uid="uid://cxvwxjowwe36o" path="res://res/img/autumn start/asclepias spp 9.png" id="9_u52cr"]
 [ext_resource type="Texture2D" uid="uid://d161i3h5ahue7" path="res://res/img/autumn start/asclepias spp 10.png" id="10_rfcty"]
@@ -16,8 +16,6 @@
 
 [resource]
 script = ExtResource("8_6prty")
-commonName = "algodoncillo"
-scientificName = "[i]Asclepias[/i] spp"
 images = Array[Texture2D]([ExtResource("1_ud2mg"), ExtResource("2_0fv6n"), ExtResource("3_6prty"), ExtResource("4_jsf0f"), ExtResource("5_igef3"), ExtResource("6_a48df"), ExtResource("7_tqtec"), ExtResource("8_c4s1p"), ExtResource("9_u52cr"), ExtResource("10_rfcty"), ExtResource("11_sh44j"), ExtResource("12_dlu6b")])
 color1 = Color(0.8, 0.76, 0.56, 1)
 color2 = Color(0.65, 0.39975, 0.2925, 1)

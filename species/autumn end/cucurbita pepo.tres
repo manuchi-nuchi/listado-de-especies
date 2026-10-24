@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Species" format=3 uid="uid://fsab11u7fqq2"]
 
 [ext_resource type="Texture2D" uid="uid://br74q5qwoatce" path="res://res/img/autumn end/cucurbita pepo 1.png" id="10_fffy2"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="10_jye8y"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="10_jye8y"]
 [ext_resource type="Texture2D" uid="uid://cw5gvj7pdasah" path="res://res/img/autumn end/cucurbita pepo 2.png" id="11_kxes7"]
 [ext_resource type="Texture2D" uid="uid://ukpx6yvscb4q" path="res://res/img/autumn end/cucurbita pepo 3.png" id="12_rijae"]
 [ext_resource type="Texture2D" uid="uid://cjftc1sbra2sj" path="res://res/img/autumn end/cucurbita pepo 4.png" id="13_1fjip"]
@@ -9,8 +9,6 @@
 
 [resource]
 script = ExtResource("10_jye8y")
-commonName = "calabaza ornamental"
-scientificName = "[i]Cucurbita pepo[/i]"
 images = Array[Texture2D]([ExtResource("10_fffy2"), ExtResource("11_kxes7"), ExtResource("12_rijae"), ExtResource("13_1fjip"), ExtResource("14_ly1qg")])
 color1 = Color(0.83137256, 0.7529412, 0.60784316, 1)
 color2 = Color(0.3764706, 0.61960787, 0.27450982, 1)

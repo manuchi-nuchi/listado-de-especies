@@ -6,15 +6,13 @@
 [ext_resource type="Texture2D" uid="uid://dlbqp2bo3bpeq" path="res://res/img/autumn start/pistacia vera 4.png" id="4_b7iag"]
 [ext_resource type="Texture2D" uid="uid://1be65mjv1r8l" path="res://res/img/autumn start/pistacia vera 5.png" id="5_m4fdk"]
 [ext_resource type="Texture2D" uid="uid://ih406fyvmddw" path="res://res/img/autumn start/pistacia vera 6.png" id="6_g5laj"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="7_b7iag"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="7_b7iag"]
 [ext_resource type="Texture2D" uid="uid://blj48ea6ljq40" path="res://res/img/autumn start/pistacia vera 7.png" id="7_sxquv"]
 [ext_resource type="Texture2D" uid="uid://ca2sp7rwsa2hk" path="res://res/img/autumn start/pistacia vera 8.png" id="8_ec517"]
 [ext_resource type="Texture2D" uid="uid://dgldblvfn6vpc" path="res://res/img/autumn start/pistacia vera 9.png" id="9_tcafc"]
 
 [resource]
 script = ExtResource("7_b7iag")
-commonName = "alfóncigo"
-scientificName = "[i]Pistacia vera[/i]"
 images = Array[Texture2D]([ExtResource("1_jrnpq"), ExtResource("2_is5eb"), ExtResource("3_n75c0"), ExtResource("4_b7iag"), ExtResource("5_m4fdk"), ExtResource("6_g5laj"), ExtResource("7_sxquv"), ExtResource("8_ec517"), ExtResource("9_tcafc")])
 color1 = Color(0.92892146, 0.82414395, 0.81741905, 1)
 color2 = Color(0.4914435, 0.60639054, 0.2676076, 1)

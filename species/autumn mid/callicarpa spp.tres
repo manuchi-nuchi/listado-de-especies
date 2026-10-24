@@ -11,13 +11,11 @@
 [ext_resource type="Texture2D" uid="uid://blkhpnm7w0b2g" path="res://res/img/autumn mid/callicarpa spp 9.png" id="9_u4avl"]
 [ext_resource type="Texture2D" uid="uid://djebd8jq8vga0" path="res://res/img/autumn mid/callicarpa spp 10.png" id="10_shmsq"]
 [ext_resource type="Texture2D" uid="uid://c4tx8fly5q5ny" path="res://res/img/autumn mid/callicarpa spp 11.png" id="11_0gyya"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="12_0gyya"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="12_0gyya"]
 [ext_resource type="Texture2D" uid="uid://6ikrwrfqe5b4" path="res://res/img/autumn mid/callicarpa spp 12.png" id="12_kefpq"]
 
 [resource]
 script = ExtResource("12_0gyya")
-commonName = "calicarpa"
-scientificName = "[i]Callicarpa[/i] spp"
 images = Array[Texture2D]([ExtResource("1_id25u"), ExtResource("2_d3vy5"), ExtResource("3_6gte2"), ExtResource("4_sxxsi"), ExtResource("5_tfest"), ExtResource("6_lji8h"), ExtResource("7_btbju"), ExtResource("8_7n30q"), ExtResource("9_u4avl"), ExtResource("10_shmsq"), ExtResource("11_0gyya"), ExtResource("12_kefpq")])
 color1 = Color(0.79982865, 0.7822206, 0.9164307, 1)
 color2 = Color(0.2925, 0.65, 0.37591663, 1)

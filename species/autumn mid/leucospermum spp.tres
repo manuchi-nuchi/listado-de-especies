@@ -8,15 +8,13 @@
 [ext_resource type="Texture2D" uid="uid://c6qs082likkay" path="res://res/img/autumn mid/leucospermum spp 6.png" id="6_v3c45"]
 [ext_resource type="Texture2D" uid="uid://qkbk2eai21mb" path="res://res/img/autumn mid/leucospermum spp 7.png" id="7_7ad08"]
 [ext_resource type="Texture2D" uid="uid://cga8mksl8ppco" path="res://res/img/autumn mid/leucospermum spp 8.png" id="8_1lbjt"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_td27b"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="8_td27b"]
 [ext_resource type="Texture2D" uid="uid://dqqatndlt2enq" path="res://res/img/autumn mid/leucospermum spp 9.png" id="9_m5tw4"]
 [ext_resource type="Texture2D" uid="uid://pf85ute8noab" path="res://res/img/autumn mid/leucospermum spp 10.png" id="10_itxhm"]
 [ext_resource type="Texture2D" uid="uid://dg44mfnx42jw1" path="res://res/img/autumn mid/leucospermum spp 11.png" id="11_0cix6"]
 
 [resource]
 script = ExtResource("8_td27b")
-commonName = "alfiletero"
-scientificName = "[i]Leucospermum[/i] spp"
 images = Array[Texture2D]([ExtResource("1_tsu6e"), ExtResource("2_5yqmg"), ExtResource("3_38pw0"), ExtResource("4_td27b"), ExtResource("5_mg02g"), ExtResource("6_v3c45"), ExtResource("7_7ad08"), ExtResource("8_1lbjt"), ExtResource("9_m5tw4"), ExtResource("10_itxhm"), ExtResource("11_0cix6")])
 color1 = Color(0.8397703, 0.8442819, 0.6292917, 1)
 color2 = Color(0.65, 0.41166663, 0.2925, 1)

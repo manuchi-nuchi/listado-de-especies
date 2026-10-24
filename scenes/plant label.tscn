@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://qebudc088aj6"]
 
-[ext_resource type="Script" uid="uid://cb083he1sc2x7" path="res://scripts/SpeciesLabel.cs" id="1_sbwjj"]
+[ext_resource type="Script" uid="uid://cv5u5iqgwfgt6" path="res://scripts/species_label.gd" id="1_sbwjj"]
 [ext_resource type="FontFile" uid="uid://crntx07k5mp21" path="res://res/fonts/EBGaramond-VariableFont_wght.ttf" id="1_t5ms5"]
 [ext_resource type="FontFile" uid="uid://l30lbkpk6mio" path="res://res/fonts/EBGaramond-Italic-VariableFont_wght.ttf" id="2_h7eg7"]
 

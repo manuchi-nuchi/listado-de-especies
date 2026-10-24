@@ -12,12 +12,13 @@ config_version=5
 
 config/name="listado de especies"
 run/main_scene="uid://mkcp07ehedh5"
-config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
 SceneTransition="*uid://cq5yijdodgbyh"
+Signals="*res://scripts/signals.gd"
 
 [display]
 

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://mkcp07ehedh5"]
 
-[ext_resource type="Script" uid="uid://yr3d7umb4alr" path="res://scripts/ListSelection.cs" id="1_p3uwy"]
+[ext_resource type="Script" uid="uid://csysgtpde0mxj" path="res://scripts/list_selection.gd" id="1_p3uwy"]
 [ext_resource type="PackedScene" uid="uid://bcunqpx7sa181" path="res://scenes/list button.tscn" id="2_ejlto"]
 [ext_resource type="Resource" uid="uid://x2l378slieay" path="res://species/autumn start.tres" id="4_1fwcl"]
 [ext_resource type="Resource" uid="uid://8lukfwak4av4" path="res://species/autumn mid.tres" id="4_06lw3"]
@@ -9,7 +9,7 @@
 [ext_resource type="Resource" uid="uid://b8hgylxm5qu27" path="res://species/autumn end.tres" id="5_h87jt"]
 [ext_resource type="Texture2D" uid="uid://g47p86vyhh25" path="res://res/sprites/bg spring.png" id="6_bveup"]
 [ext_resource type="Shader" uid="uid://dqlbxergcxfra" path="res://shaders/gradient_loop.gdshader" id="6_gmyq0"]
-[ext_resource type="Script" uid="uid://bc41bowi816m1" path="res://scripts/MaterialToShader.cs" id="7_24k1n"]
+[ext_resource type="Script" uid="uid://dseek2hcpnpqc" path="res://scripts/material_to_shader.gd" id="7_24k1n"]
 [ext_resource type="Texture2D" uid="uid://bh6istmwfu2bn" path="res://res/sprites/bg autumn.png" id="7_27py1"]
 [ext_resource type="Texture2D" uid="uid://ce51ltuyeik71" path="res://res/sprites/bg summer.png" id="7_vun34"]
 
@@ -130,12 +130,11 @@ turbulence_enabled = true
 turbulence_noise_strength = 20.0
 turbulence_noise_scale = 9.012
 
-[node name="ListSelection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons", "bg")]
+[node name="list selection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons", "bg")]
 script = ExtResource("1_p3uwy")
 buttons = [NodePath("CanvasLayer/MarginContainer/GridContainer/autumn start"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]2"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]3"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn mid"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]4"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]5"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]6"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn end"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]7"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]8"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]9")]
 bg = [NodePath("CanvasLayer/bg/autumn"), NodePath("CanvasLayer/bg/winter"), NodePath("CanvasLayer/bg/spring"), NodePath("CanvasLayer/bg/summer")]
-bgFadeDuration = 0.5
-mainSceneName = "uid://dujcdeg7aar2o"
+main_scene_path = "uid://dujcdeg7aar2o"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1300372925]
 

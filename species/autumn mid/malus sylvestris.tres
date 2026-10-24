@@ -8,13 +8,11 @@
 [ext_resource type="Texture2D" uid="uid://crp5d5sne02ev" path="res://res/img/autumn mid/malus sylvestris 6.png" id="6_krlk3"]
 [ext_resource type="Texture2D" uid="uid://b8dgl2w1eyljq" path="res://res/img/autumn mid/malus sylvestris 7.png" id="7_mnkup"]
 [ext_resource type="Texture2D" uid="uid://cuw6ici2svde8" path="res://res/img/autumn mid/malus sylvestris 8.png" id="8_5aka1"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_mnkup"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="8_mnkup"]
 [ext_resource type="Texture2D" uid="uid://bp2yoqg00xt8n" path="res://res/img/autumn mid/malus sylvestris 9.png" id="9_vt3rl"]
 
 [resource]
 script = ExtResource("8_mnkup")
-commonName = "manzano silvestre"
-scientificName = "[i]Malus sylvestris[/i]"
 images = Array[Texture2D]([ExtResource("1_fm4w0"), ExtResource("2_vt3rl"), ExtResource("3_k4vob"), ExtResource("4_7t0cn"), ExtResource("5_t8dl6"), ExtResource("6_krlk3"), ExtResource("7_mnkup"), ExtResource("8_5aka1"), ExtResource("9_vt3rl")])
 color1 = Color(0.89744323, 0.76988596, 0.90026146, 1)
 color2 = Color(0.31285942, 0.6848284, 0.46784616, 1)

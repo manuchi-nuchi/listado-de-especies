@@ -4,13 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://kwdip1s51rgm" path="res://res/img/autumn start/curcuma longa 2.png" id="2_fgo4n"]
 [ext_resource type="Texture2D" uid="uid://dd6ady8osrwhn" path="res://res/img/autumn start/curcuma longa 3.png" id="3_ev4i0"]
 [ext_resource type="Texture2D" uid="uid://cl2lglgi6edn2" path="res://res/img/autumn start/curcuma longa 4.png" id="4_e5lju"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="5_e5lju"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="5_e5lju"]
 [ext_resource type="Texture2D" uid="uid://b8mtcraeirknu" path="res://res/img/autumn start/curcuma longa 5.png" id="5_yutwm"]
 
 [resource]
 script = ExtResource("5_e5lju")
-commonName = "cúrcuma"
-scientificName = "[i]Curcuma longa[/i]"
 images = Array[Texture2D]([ExtResource("1_k8kx3"), ExtResource("2_fgo4n"), ExtResource("3_ev4i0"), ExtResource("4_e5lju"), ExtResource("5_yutwm")])
 color1 = Color(0.8741882, 0.69777715, 0.76682603, 1)
 color2 = Color(0.65, 0.3699583, 0.2925, 1)

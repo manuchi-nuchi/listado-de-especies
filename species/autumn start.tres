@@ -1,6 +1,7 @@
 [gd_resource type="Resource" script_class="SpeciesList" format=3 uid="uid://x2l378slieay"]
 
-[ext_resource type="Script" uid="uid://wg6f6glpred" path="res://scripts/SpeciesList.cs" id="1_3yoft"]
+[ext_resource type="Script" uid="uid://bkrjecbd0rkxf" path="res://scripts/species_list.gd" id="1_3yoft"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="2_4bax2"]
 [ext_resource type="Resource" uid="uid://bnan3j6i60l7j" path="res://species/autumn start/cotinus coggygria.tres" id="2_47ncg"]
 [ext_resource type="Resource" uid="uid://cquojbvgteb1" path="res://species/autumn start/typha latifolia.tres" id="3_howsv"]
 [ext_resource type="Resource" uid="uid://c1qwhtygue4dv" path="res://species/autumn start/curcuma longa.tres" id="4_3yoft"]
@@ -17,5 +18,5 @@
 
 [resource]
 script = ExtResource("1_3yoft")
-species = Array[Object]([ExtResource("2_47ncg"), ExtResource("3_howsv"), ExtResource("4_3yoft"), ExtResource("5_na4py"), ExtResource("6_m348w"), ExtResource("7_08bxc"), ExtResource("8_d8uk0"), ExtResource("9_khkq1"), ExtResource("10_gunji"), ExtResource("11_nlu6b"), ExtResource("12_6eafr"), ExtResource("13_moe1t"), ExtResource("14_gctvg")])
+species = Array[ExtResource("2_4bax2")]([ExtResource("2_47ncg"), ExtResource("3_howsv"), ExtResource("4_3yoft"), ExtResource("5_na4py"), ExtResource("6_m348w"), ExtResource("7_08bxc"), ExtResource("8_d8uk0"), ExtResource("9_khkq1"), ExtResource("10_gunji"), ExtResource("11_nlu6b"), ExtResource("12_6eafr"), ExtResource("13_moe1t"), ExtResource("14_gctvg")])
 metadata/_custom_type_script = "uid://wg6f6glpred"

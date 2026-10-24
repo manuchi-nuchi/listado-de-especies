@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="Species" format=3 uid="uid://cquojbvgteb1"]
 
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="7_ogakc"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="7_ogakc"]
 [ext_resource type="Texture2D" uid="uid://cuyb4gcexe67n" path="res://res/img/autumn start/typha latifolia 1.png" id="7_r60ey"]
 [ext_resource type="Texture2D" uid="uid://bu3303h3jt66s" path="res://res/img/autumn start/typha latifolia 2.png" id="8_qgj06"]
 [ext_resource type="Texture2D" uid="uid://1rhvkq0okbf3" path="res://res/img/autumn start/typha latifolia 3.png" id="9_ogakc"]
@@ -8,8 +8,6 @@
 
 [resource]
 script = ExtResource("7_ogakc")
-commonName = "espadaña"
-scientificName = "[i]Typha latifolia[/i]"
 images = Array[Texture2D]([ExtResource("7_r60ey"), ExtResource("8_qgj06"), ExtResource("9_ogakc"), ExtResource("10_brnfd")])
 color1 = Color(0.704, 0.8, 0.56, 1)
 color2 = Color(0.65, 0.4057083, 0.2925, 1)

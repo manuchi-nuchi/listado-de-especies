@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://cq5yijdodgbyh"]
 
 [ext_resource type="Shader" uid="uid://ia0grl1klkeo" path="res://shaders/scene_transition.gdshader" id="1_a5q5d"]
-[ext_resource type="Script" uid="uid://cqkycc6wr823y" path="res://scripts/SceneTransitionAnimation.cs" id="1_sj5gx"]
+[ext_resource type="Script" uid="uid://dds3s6rlmsuty" path="res://scripts/scene_transition_animation.gd" id="1_sj5gx"]
 
-[sub_resource type="Curve" id="Curve_nq7hy"]
+[sub_resource type="Curve" id="Curve_tipki"]
 _data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
 point_count = 2
 
@@ -22,12 +22,10 @@ shader_parameter/thickness = 0.2990000142025
 shader_parameter/color = Color(0, 0, 0, 1)
 shader_parameter/noise = SubResource("NoiseTexture2D_rujfs")
 
-[node name="A" type="CanvasLayer" unique_id=107480122 node_paths=PackedStringArray("target")]
+[node name="scene transition" type="CanvasLayer" unique_id=107480122 node_paths=PackedStringArray("target")]
 layer = 1000
 script = ExtResource("1_sj5gx")
-fadeDuration = 0.8
-pauseDuration = 0.1
-ease = SubResource("Curve_nq7hy")
+ease_curve = SubResource("Curve_tipki")
 target = NodePath("Control/ColorRect")
 
 [node name="Control" type="Control" parent="." unique_id=1098633522]

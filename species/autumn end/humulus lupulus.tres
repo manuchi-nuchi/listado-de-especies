@@ -5,15 +5,13 @@
 [ext_resource type="Texture2D" uid="uid://5745y68a4k2m" path="res://res/img/autumn end/humulus lupulus 3.png" id="3_ckt0x"]
 [ext_resource type="Texture2D" uid="uid://brwqpxawubib2" path="res://res/img/autumn end/humulus lupulus 4.png" id="4_g6loc"]
 [ext_resource type="Texture2D" uid="uid://bpv54thk33wfl" path="res://res/img/autumn end/humulus lupulus 5.png" id="5_nvk43"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="6_ckt0x"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="6_ckt0x"]
 [ext_resource type="Texture2D" uid="uid://y6f34iuwtxuf" path="res://res/img/autumn end/humulus lupulus 6.png" id="6_yruru"]
 [ext_resource type="Texture2D" uid="uid://caypdcn2jlgx3" path="res://res/img/autumn end/humulus lupulus 7.png" id="7_0vf6t"]
 [ext_resource type="Texture2D" uid="uid://due33rdwmuwai" path="res://res/img/autumn end/humulus lupulus 8.png" id="8_kdwh5"]
 
 [resource]
 script = ExtResource("6_ckt0x")
-commonName = "lúpulo"
-scientificName = "[i]Humulus lupulus[/i]"
 images = Array[Texture2D]([ExtResource("1_0wgka"), ExtResource("2_xgo00"), ExtResource("3_ckt0x"), ExtResource("4_g6loc"), ExtResource("5_nvk43"), ExtResource("6_yruru"), ExtResource("7_0vf6t"), ExtResource("8_kdwh5")])
 color1 = Color(0.84074384, 0.8125421, 0.6229299, 1)
 color2 = Color(0.562918, 0.6277275, 0.27948952, 1)

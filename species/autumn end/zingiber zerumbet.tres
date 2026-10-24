@@ -9,7 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://bb50t2r5a04x7" path="res://res/img/autumn end/zingiber zerumbet 7.png" id="7_xba6e"]
 [ext_resource type="Texture2D" uid="uid://bl2lopfjqclqx" path="res://res/img/autumn end/zingiber zerumbet 8.png" id="8_rxqky"]
 [ext_resource type="Texture2D" uid="uid://cw0kdn6y0kso4" path="res://res/img/autumn end/zingiber zerumbet 9.png" id="9_srgtg"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="9_yluyu"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="9_yluyu"]
 [ext_resource type="Texture2D" uid="uid://67q6tg2e086j" path="res://res/img/autumn end/zingiber zerumbet 10.png" id="10_huy8a"]
 [ext_resource type="Texture2D" uid="uid://d2nksh8nvg4yg" path="res://res/img/autumn end/zingiber zerumbet 11.png" id="11_722er"]
 [ext_resource type="Texture2D" uid="uid://cbqc6qclhrbvm" path="res://res/img/autumn end/zingiber zerumbet 12.png" id="12_24lap"]
@@ -18,8 +18,6 @@
 
 [resource]
 script = ExtResource("9_yluyu")
-commonName = "gengibre amargo"
-scientificName = "[i]Zingiber zerumbet[/i]"
 images = Array[Texture2D]([ExtResource("1_02ima"), ExtResource("2_uk3de"), ExtResource("3_yluyu"), ExtResource("4_lnmrg"), ExtResource("5_ko34h"), ExtResource("6_jq3dm"), ExtResource("7_xba6e"), ExtResource("8_rxqky"), ExtResource("9_srgtg"), ExtResource("10_huy8a"), ExtResource("11_722er"), ExtResource("12_24lap"), ExtResource("13_tltfk"), ExtResource("14_o0d7p")])
 color1 = Color(0.796, 0.8, 0.56, 1)
 color2 = Color(0.65, 0.2925, 0.34612486, 1)

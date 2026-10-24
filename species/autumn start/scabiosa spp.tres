@@ -5,14 +5,12 @@
 [ext_resource type="Texture2D" uid="uid://cnr4ns0uik2e8" path="res://res/img/autumn start/scabiosa spp 3.png" id="3_71mal"]
 [ext_resource type="Texture2D" uid="uid://damp62r4m1d5v" path="res://res/img/autumn start/scabiosa spp 4.png" id="4_0lkvp"]
 [ext_resource type="Texture2D" uid="uid://q0qxh1lk7vu5" path="res://res/img/autumn start/scabiosa spp 5.png" id="5_86rjm"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="5_kagev"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="5_kagev"]
 [ext_resource type="Texture2D" uid="uid://bup4tapoyojhx" path="res://res/img/autumn start/scabiosa spp 6.png" id="6_waf34"]
 [ext_resource type="Texture2D" uid="uid://cj6u03khecfa8" path="res://res/img/autumn start/scabiosa spp 7.png" id="7_lh5p4"]
 
 [resource]
 script = ExtResource("5_kagev")
-commonName = "escabiosa"
-scientificName = "[i]Scabiosa[/i] spp."
 images = Array[Texture2D]([ExtResource("1_toumh"), ExtResource("2_kagev"), ExtResource("3_71mal"), ExtResource("4_0lkvp"), ExtResource("5_86rjm"), ExtResource("6_waf34"), ExtResource("7_lh5p4")])
 color1 = Color(0.6341045, 0.85524994, 0.69732475, 1)
 color2 = Color(0.67146194, 0.3397374, 0.7076084, 1)

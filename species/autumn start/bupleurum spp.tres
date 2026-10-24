@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://twcw4lvi87b3" path="res://res/img/autumn start/bupleurum spp 5.png" id="5_swf12"]
 [ext_resource type="Texture2D" uid="uid://42qy7ckcf5im" path="res://res/img/autumn start/bupleurum spp 6.png" id="6_555nf"]
 [ext_resource type="Texture2D" uid="uid://c664aw5yr7kmh" path="res://res/img/autumn start/bupleurum spp 7.png" id="7_pb1ew"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="8_2yaxf"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="8_2yaxf"]
 [ext_resource type="Texture2D" uid="uid://p7wrb4abpjwk" path="res://res/img/autumn start/bupleurum spp 8.png" id="8_56231"]
 [ext_resource type="Texture2D" uid="uid://dfytmqhrgvsck" path="res://res/img/autumn start/bupleurum spp 9.png" id="9_q6e8p"]
 [ext_resource type="Texture2D" uid="uid://dn477ijx4b4au" path="res://res/img/autumn start/bupleurum spp 10.png" id="10_73uog"]
@@ -15,8 +15,6 @@
 
 [resource]
 script = ExtResource("8_2yaxf")
-commonName = "oreja de liebre"
-scientificName = "[i]Bupleurum[/i] spp."
 images = Array[Texture2D]([ExtResource("1_ud6wx"), ExtResource("2_bkd6m"), ExtResource("3_cwnt6"), ExtResource("4_2yaxf"), ExtResource("5_swf12"), ExtResource("6_555nf"), ExtResource("7_pb1ew"), ExtResource("8_56231"), ExtResource("9_q6e8p"), ExtResource("10_73uog"), ExtResource("11_64n2w")])
 color1 = Color(0.82348377, 0.8388194, 0.6192199, 1)
 color2 = Color(0.37321037, 0.6046121, 0.27025658, 1)

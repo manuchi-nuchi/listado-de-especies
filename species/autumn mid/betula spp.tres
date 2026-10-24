@@ -11,12 +11,10 @@
 [ext_resource type="Texture2D" uid="uid://clmpm2nooa8w5" path="res://res/img/autumn mid/betula spp 9.png" id="9_f1p03"]
 [ext_resource type="Texture2D" uid="uid://dxdgrj2wuw4hi" path="res://res/img/autumn mid/betula spp 10.png" id="10_7fdm7"]
 [ext_resource type="Texture2D" uid="uid://b8ifksvkb3sr" path="res://res/img/autumn mid/betula spp 11.png" id="11_raxh1"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="14_ckauf"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="14_ckauf"]
 
 [resource]
 script = ExtResource("14_ckauf")
-commonName = "abedul"
-scientificName = "[i]Betula[/i] spp"
 images = Array[Texture2D]([ExtResource("1_ojbi5"), ExtResource("2_wq3ru"), ExtResource("3_10f7g"), ExtResource("4_0yayu"), ExtResource("5_6fu7k"), ExtResource("6_t31e0"), ExtResource("7_gb76u"), ExtResource("8_220i2"), ExtResource("9_f1p03"), ExtResource("10_7fdm7"), ExtResource("11_raxh1")])
 color1 = Color(0.8435381, 0.8300998, 0.62866414, 1)
 color2 = Color(0.50601566, 0.6235648, 0.27760762, 1)

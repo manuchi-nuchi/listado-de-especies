@@ -10,15 +10,13 @@
 [ext_resource type="Texture2D" uid="uid://bwfbs1ens87x4" path="res://res/img/autumn end/ligustrum spp 8.png" id="8_dbkep"]
 [ext_resource type="Texture2D" uid="uid://bdilq3tn6k8nu" path="res://res/img/autumn end/ligustrum spp 9.png" id="9_yh5vb"]
 [ext_resource type="Texture2D" uid="uid://dynt7cjdv6r3i" path="res://res/img/autumn end/ligustrum spp 10.png" id="10_pfrnf"]
-[ext_resource type="Script" uid="uid://c0nj84vjao01i" path="res://scripts/Species.cs" id="11_dbkep"]
+[ext_resource type="Script" uid="uid://dwnfv67wftwfg" path="res://scripts/species.gd" id="11_dbkep"]
 [ext_resource type="Texture2D" uid="uid://dvy7ktqwogkxf" path="res://res/img/autumn end/ligustrum spp 11.png" id="11_u6ovl"]
 [ext_resource type="Texture2D" uid="uid://cp7cool0i2gsp" path="res://res/img/autumn end/ligustrum spp 12.png" id="12_rkxsb"]
 [ext_resource type="Texture2D" uid="uid://ckwo08btqe2x8" path="res://res/img/autumn end/ligustrum spp 13.png" id="13_eya3u"]
 
 [resource]
 script = ExtResource("11_dbkep")
-commonName = "aligustre"
-scientificName = "[i]Ligustrum[/i] spp"
 images = Array[Texture2D]([ExtResource("1_l0ikd"), ExtResource("2_hdhlt"), ExtResource("3_3mlvs"), ExtResource("7_2brsb"), ExtResource("4_8t3jq"), ExtResource("5_y833h"), ExtResource("6_feg37"), ExtResource("8_dbkep"), ExtResource("9_yh5vb"), ExtResource("10_pfrnf"), ExtResource("11_u6ovl"), ExtResource("12_rkxsb"), ExtResource("13_eya3u")])
 color1 = Color(0.70698106, 0.74494684, 0.8805381, 1)
 color2 = Color(0.3222916, 0.65, 0.2925, 1)
