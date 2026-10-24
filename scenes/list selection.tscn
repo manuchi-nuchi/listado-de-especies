@@ -130,13 +130,12 @@ turbulence_enabled = true
 turbulence_noise_strength = 20.0
 turbulence_noise_scale = 9.012
 
-[node name="ListSelection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons", "bg", "sta")]
+[node name="ListSelection" type="Node2D" unique_id=661408504 node_paths=PackedStringArray("buttons", "bg")]
 script = ExtResource("1_p3uwy")
 buttons = [NodePath("CanvasLayer/MarginContainer/GridContainer/autumn start"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]2"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]3"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn mid"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]4"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]5"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]6"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn end"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]7"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]8"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]9")]
 bg = [NodePath("CanvasLayer/bg/autumn"), NodePath("CanvasLayer/bg/winter"), NodePath("CanvasLayer/bg/spring"), NodePath("CanvasLayer/bg/summer")]
 bgFadeDuration = 0.5
 mainSceneName = "uid://dujcdeg7aar2o"
-sta = NodePath("")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1300372925]
 

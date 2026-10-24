@@ -41,7 +41,8 @@ public partial class ListSelection : Node
 				ShowBg(i);
 		}
 
-		
+		Input.MouseMode = Input.MouseModeEnum.Hidden;
+		DisplayServer.WindowSetMode(DisplayServer.WindowMode.Fullscreen);
 	}
 
 	
@@ -87,6 +88,9 @@ public partial class ListSelection : Node
 						Globals.TransitionPosition = CurrentButton.GetGlobalRect().GetCenter();
                         Actions.ChangeScene?.Invoke();
 					}
+					break;
+				case Key.Escape:
+					GetTree().Quit();
 					break;
             }
 		}

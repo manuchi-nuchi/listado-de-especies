@@ -7,6 +7,5 @@ public class Globals
     public static Vector2I Current = Vector2I.Zero;
     public static string NewScenePath;
     public static Vector2 TransitionPosition = Vector2.Zero;
-    public static Vector2 TransitionToPosition = Vector2.Zero;
     public static bool ChangingScene = false;
 }
