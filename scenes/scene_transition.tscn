@@ -25,6 +25,8 @@ shader_parameter/noise = SubResource("NoiseTexture2D_rujfs")
 [node name="scene transition" type="CanvasLayer" unique_id=107480122 node_paths=PackedStringArray("target")]
 layer = 1000
 script = ExtResource("1_sj5gx")
+fade_duration = 0.8
+pause_duration = 0.1
 ease_curve = SubResource("Curve_tipki")
 target = NodePath("Control/ColorRect")
 

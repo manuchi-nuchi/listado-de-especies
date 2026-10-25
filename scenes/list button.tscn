@@ -24,6 +24,9 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_b0ocq")
 underline = NodePath("Control/NinePatchRect")
+max_width = 70000.0
+animation_duration = 0.3
+back_duration_scale = 3.0
 ease_curve = SubResource("Curve_24gwq")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1519306977]

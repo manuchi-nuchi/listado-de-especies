@@ -8,8 +8,9 @@
 
 [resource]
 script = ExtResource("7_ogakc")
+common_name = "espadaña"
+scientific_name = "[i]Typha latifolia[/i]"
 images = Array[Texture2D]([ExtResource("7_r60ey"), ExtResource("8_qgj06"), ExtResource("9_ogakc"), ExtResource("10_brnfd")])
 color1 = Color(0.704, 0.8, 0.56, 1)
 color2 = Color(0.65, 0.4057083, 0.2925, 1)
 color3 = Color(0.06040827, 0.2985121, 0.050559953, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

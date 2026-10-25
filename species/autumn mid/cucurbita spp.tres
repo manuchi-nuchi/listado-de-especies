@@ -9,8 +9,9 @@
 
 [resource]
 script = ExtResource("12_mjm83")
+common_name = "calabaza"
+scientific_name = "[i]Cucurbita[/i] spp."
 images = Array[Texture2D]([ExtResource("1_g4q2s"), ExtResource("2_g811c"), ExtResource("3_gm8yw"), ExtResource("4_4sl33"), ExtResource("5_qg6pn")])
 color1 = Color(0.8309241, 0.753531, 0.60650784, 1)
 color2 = Color(0.3764706, 0.61960787, 0.27450982, 1)
 color3 = Color(0.04036852, 0.27239585, 0.15982714, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

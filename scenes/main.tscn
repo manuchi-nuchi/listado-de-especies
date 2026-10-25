@@ -69,6 +69,7 @@ image = NodePath("CanvasLayer/details/area/img frame color/photo")
 bg = NodePath("CanvasLayer/bg color")
 watercolor = NodePath("CanvasLayer/watercolor")
 frame = NodePath("CanvasLayer/details/area/img frame color")
+animation_duration = 0.15
 ease_curve = SubResource("Curve_ig1ou")
 list_selection_scene_path = "uid://mkcp07ehedh5"
 transition_origin = NodePath("CanvasLayer/transition origin")

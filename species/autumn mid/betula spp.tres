@@ -15,8 +15,9 @@
 
 [resource]
 script = ExtResource("14_ckauf")
+common_name = "abedul"
+scientific_name = "[i]Betula[/i] spp."
 images = Array[Texture2D]([ExtResource("1_ojbi5"), ExtResource("2_wq3ru"), ExtResource("3_10f7g"), ExtResource("4_0yayu"), ExtResource("5_6fu7k"), ExtResource("6_t31e0"), ExtResource("7_gb76u"), ExtResource("8_220i2"), ExtResource("9_f1p03"), ExtResource("10_7fdm7"), ExtResource("11_raxh1")])
 color1 = Color(0.8435381, 0.8300998, 0.62866414, 1)
 color2 = Color(0.50601566, 0.6235648, 0.27760762, 1)
 color3 = Color(0.051963426, 0.3063826, 0.17578903, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

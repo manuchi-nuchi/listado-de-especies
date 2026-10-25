@@ -16,8 +16,9 @@
 
 [resource]
 script = ExtResource("12_0gyya")
+common_name = "calicarpa"
+scientific_name = "[i]Callicarpa[/i] spp."
 images = Array[Texture2D]([ExtResource("1_id25u"), ExtResource("2_d3vy5"), ExtResource("3_6gte2"), ExtResource("4_sxxsi"), ExtResource("5_tfest"), ExtResource("6_lji8h"), ExtResource("7_btbju"), ExtResource("8_7n30q"), ExtResource("9_u4avl"), ExtResource("10_shmsq"), ExtResource("11_0gyya"), ExtResource("12_kefpq")])
 color1 = Color(0.79982865, 0.7822206, 0.9164307, 1)
 color2 = Color(0.2925, 0.65, 0.37591663, 1)
 color3 = Color(0.34673917, 0.065422356, 0.35742986, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

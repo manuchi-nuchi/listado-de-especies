@@ -13,8 +13,9 @@
 
 [resource]
 script = ExtResource("7_b7iag")
+common_name = "pistacho"
+scientific_name = "[i]Pistacia vera[/i]"
 images = Array[Texture2D]([ExtResource("1_jrnpq"), ExtResource("2_is5eb"), ExtResource("3_n75c0"), ExtResource("4_b7iag"), ExtResource("5_m4fdk"), ExtResource("6_g5laj"), ExtResource("7_sxquv"), ExtResource("8_ec517"), ExtResource("9_tcafc")])
 color1 = Color(0.92892146, 0.82414395, 0.81741905, 1)
 color2 = Color(0.4914435, 0.60639054, 0.2676076, 1)
 color3 = Color(0.27795607, 0.23089379, 0.042677388, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

@@ -16,8 +16,9 @@
 
 [resource]
 script = ExtResource("8_6prty")
+common_name = "algodoncillo"
+scientific_name = "[i]Asclepias[/i] spp."
 images = Array[Texture2D]([ExtResource("1_ud2mg"), ExtResource("2_0fv6n"), ExtResource("3_6prty"), ExtResource("4_jsf0f"), ExtResource("5_igef3"), ExtResource("6_a48df"), ExtResource("7_tqtec"), ExtResource("8_c4s1p"), ExtResource("9_u52cr"), ExtResource("10_rfcty"), ExtResource("11_sh44j"), ExtResource("12_dlu6b")])
 color1 = Color(0.8, 0.76, 0.56, 1)
 color2 = Color(0.65, 0.39975, 0.2925, 1)
 color3 = Color(0.4, 0.08, 0.1813333, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

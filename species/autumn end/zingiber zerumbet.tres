@@ -18,8 +18,9 @@
 
 [resource]
 script = ExtResource("9_yluyu")
+common_name = "jengibre amargo"
+scientific_name = "[i]Zingiber zerumbet[/i]"
 images = Array[Texture2D]([ExtResource("1_02ima"), ExtResource("2_uk3de"), ExtResource("3_yluyu"), ExtResource("4_lnmrg"), ExtResource("5_ko34h"), ExtResource("6_jq3dm"), ExtResource("7_xba6e"), ExtResource("8_rxqky"), ExtResource("9_srgtg"), ExtResource("10_huy8a"), ExtResource("11_722er"), ExtResource("12_24lap"), ExtResource("13_tltfk"), ExtResource("14_o0d7p")])
 color1 = Color(0.796, 0.8, 0.56, 1)
 color2 = Color(0.65, 0.2925, 0.34612486, 1)
 color3 = Color(0.02902162, 0.22352758, 0.10737056, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

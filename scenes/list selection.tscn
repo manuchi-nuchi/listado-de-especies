@@ -134,6 +134,7 @@ turbulence_noise_scale = 9.012
 script = ExtResource("1_p3uwy")
 buttons = [NodePath("CanvasLayer/MarginContainer/GridContainer/autumn start"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]2"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]3"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn mid"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]4"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]5"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]6"), NodePath("CanvasLayer/MarginContainer/GridContainer/autumn end"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]7"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]8"), NodePath("CanvasLayer/MarginContainer/GridContainer/[wip]9")]
 bg = [NodePath("CanvasLayer/bg/autumn"), NodePath("CanvasLayer/bg/winter"), NodePath("CanvasLayer/bg/spring"), NodePath("CanvasLayer/bg/summer")]
+bg_fade_duration = 0.5
 main_scene_path = "uid://dujcdeg7aar2o"
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1300372925]

@@ -10,8 +10,9 @@
 
 [resource]
 script = ExtResource("1_6oj0f")
+common_name = "árbol de las pelucas"
+scientific_name = "[i]Cotinus coggygria[/i]"
 images = Array[Texture2D]([ExtResource("1_f20xh"), ExtResource("2_jkjp5"), ExtResource("3_ilbla"), ExtResource("4_ilbla"), ExtResource("5_r2hi5"), ExtResource("6_r2hi5")])
 color1 = Color(0.56, 0.8, 0.64400005, 1)
 color2 = Color(0.53147, 0.45042497, 0.8236304, 1)
 color3 = Color(0.4, 0.08, 0.22399993, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

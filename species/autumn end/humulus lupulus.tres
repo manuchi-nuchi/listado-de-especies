@@ -12,8 +12,9 @@
 
 [resource]
 script = ExtResource("6_ckt0x")
+common_name = "lúpulo"
+scientific_name = "[i]Humulus lupulus[/i]"
 images = Array[Texture2D]([ExtResource("1_0wgka"), ExtResource("2_xgo00"), ExtResource("3_ckt0x"), ExtResource("4_g6loc"), ExtResource("5_nvk43"), ExtResource("6_yruru"), ExtResource("7_0vf6t"), ExtResource("8_kdwh5")])
 color1 = Color(0.84074384, 0.8125421, 0.6229299, 1)
 color2 = Color(0.562918, 0.6277275, 0.27948952, 1)
 color3 = Color(0.09564652, 0.22351566, 0.029456189, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

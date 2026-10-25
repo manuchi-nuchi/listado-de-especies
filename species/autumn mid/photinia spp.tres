@@ -15,8 +15,9 @@
 
 [resource]
 script = ExtResource("8_fk4ui")
+common_name = "fotinia"
+scientific_name = "[i]Photinia[/i] spp."
 images = Array[Texture2D]([ExtResource("1_oj4tq"), ExtResource("2_0e3pm"), ExtResource("3_lrkw6"), ExtResource("4_4q26g"), ExtResource("5_fk4ui"), ExtResource("6_f306x"), ExtResource("7_eqfqq"), ExtResource("8_0f0hn"), ExtResource("9_u3ho8"), ExtResource("10_d0nm5"), ExtResource("11_0e3pm")])
 color1 = Color(0.645, 0.86, 0.70233333, 1)
 color2 = Color(0.71, 0.34080002, 0.51924676, 1)
 color3 = Color(0.33065525, 0.057699583, 0.19095543, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

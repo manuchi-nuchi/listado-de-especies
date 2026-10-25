@@ -16,8 +16,9 @@
 
 [resource]
 script = ExtResource("6_j4nca")
+common_name = "pata de canguro"
+scientific_name = "[i]Anigozanthos[/i] spp."
 images = Array[Texture2D]([ExtResource("1_6d41c"), ExtResource("2_lhyai"), ExtResource("3_24qfb"), ExtResource("4_wr20r"), ExtResource("5_mcgwb"), ExtResource("6_c606v"), ExtResource("7_uqjxd"), ExtResource("8_qlx1l"), ExtResource("9_kj6e8"), ExtResource("10_48hq6"), ExtResource("11_3hst1"), ExtResource("12_oinnt")])
 color1 = Color(0.82608026, 0.8380104, 0.617334, 1)
 color2 = Color(0.2925, 0.65, 0.38783333, 1)
 color3 = Color(0.23611182, 0.12534058, 0.5530981, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"

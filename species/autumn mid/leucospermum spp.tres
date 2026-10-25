@@ -15,8 +15,9 @@
 
 [resource]
 script = ExtResource("8_td27b")
+common_name = "alfiletero"
+scientific_name = "[i]Leucospermum[/i] spp."
 images = Array[Texture2D]([ExtResource("1_tsu6e"), ExtResource("2_5yqmg"), ExtResource("3_38pw0"), ExtResource("4_td27b"), ExtResource("5_mg02g"), ExtResource("6_v3c45"), ExtResource("7_7ad08"), ExtResource("8_1lbjt"), ExtResource("9_m5tw4"), ExtResource("10_itxhm"), ExtResource("11_0cix6")])
 color1 = Color(0.8397703, 0.8442819, 0.6292917, 1)
 color2 = Color(0.65, 0.41166663, 0.2925, 1)
 color3 = Color(0.14137122, 0.26515293, 0.040114287, 1)
-metadata/_custom_type_script = "uid://c0nj84vjao01i"
